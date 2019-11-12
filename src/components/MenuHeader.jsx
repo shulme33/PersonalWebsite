@@ -1,9 +1,10 @@
 import React, { Component } from "../../node_modules/react";
+import "../css/menu-header.css";
 
-const MenuHeader = () => {
+const MenuHeader = ({ title }) => {
   return (
-    <div>
-      <p>Menu Header</p>
+    <div className="menu-header">
+      <h3 className="main-header-title">{title}</h3>
     </div>
   );
 };

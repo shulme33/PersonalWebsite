@@ -4,9 +4,10 @@ import "./App.css";
 import NavBar from "./components/NavBar.jsx";
 import Banner from "./components/Banner.jsx";
 import MenuBar from "./components/MenuBar";
-import MenuHeader from "./components/MenuHeader";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer.jsx";
+import "./fonts/Karla.ttf";
+import "./fonts/Reliable.otf";
 
 const App = () => {
   /*

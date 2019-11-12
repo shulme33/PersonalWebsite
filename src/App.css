@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Reliable";
+  src: local("Reliable"), url(./fonts/Reliable.otf) format("opentype");
+  font-family: "Karla";
+  src: local("Karla"), url(./fonts/Karla.ttf) format("truetype");
+}
+
 .App {
   text-align: center;
   padding: 0px;

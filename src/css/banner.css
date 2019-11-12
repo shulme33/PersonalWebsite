@@ -1,6 +1,25 @@
+@font-face {
+  font-family: "Reliable";
+  src: local("Reliable"), url(../fonts/Reliable.otf) format("opentype");
+}
+
 .banner {
-  background-color: red;
-  height: 40vh;
+  background-image: url("../images/background-image-desert-2.jpg");
+  background-position: center top;
+  background-size: 100% auto;
+  height: 45vh;
   min-height: 400px;
   width: 100vw;
+  display: table;
+  text-align: center;
+}
+
+.banner-title {
+  font-family: Reliable;
+  margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 10vh;
+  font-weight: normal;
 }

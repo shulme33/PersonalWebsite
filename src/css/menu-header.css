@@ -1,0 +1,9 @@
+.menu-header {
+  width: 23.33vw;
+  height: 100%;
+  display: inline-flex;
+}
+
+.menu-header:hover {
+  background-color: #d41e29;
+}
