@@ -6,9 +6,9 @@ const MenuBar = () => {
   return (
     <div className="menu-bar">
       <div className="menu-bar-area">
-        <MenuHeader title="Resume" />
-        <MenuHeader title="Projects" />
-        <MenuHeader title="About" />
+        <MenuHeader title="Resume" icon="resume.svg" />
+        <MenuHeader title="Projects" icon="projects.svg" />
+        <MenuHeader title="About" icon="about.svg" />
       </div>
     </div>
   );

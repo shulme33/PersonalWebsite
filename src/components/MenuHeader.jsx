@@ -1,9 +1,11 @@
 import React, { Component } from "../../node_modules/react";
 import "../css/menu-header.css";
 
-const MenuHeader = ({ title }) => {
+const MenuHeader = ({ title, icon }) => {
+  //<h3 className="main-header-title">{title}</h3>
   return (
     <div className="menu-header">
+      <div className="main-header-icon"></div>
       <h3 className="main-header-title">{title}</h3>
     </div>
   );
