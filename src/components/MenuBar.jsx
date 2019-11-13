@@ -1,4 +1,4 @@
-import React, { Component } from "../../node_modules/react";
+import React from "../../node_modules/react";
 import MenuHeader from "../components/MenuHeader";
 import "../css/menubar.css";
 

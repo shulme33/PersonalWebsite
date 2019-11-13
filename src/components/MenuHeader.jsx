@@ -1,4 +1,4 @@
-import React, { Component } from "../../node_modules/react";
+import React from "../../node_modules/react";
 import "../css/menu-header.css";
 
 const MenuHeader = ({ title, icon }) => {

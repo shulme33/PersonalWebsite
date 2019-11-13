@@ -5,8 +5,8 @@
 
 .banner {
   background-image: url("../images/background-image-desert-2.jpg");
-  background-position: center top;
-  background-size: 100% auto;
+  background-position: center center;
+  background-size: cover;
   height: 45vh;
   min-height: 400px;
   width: 100vw;
