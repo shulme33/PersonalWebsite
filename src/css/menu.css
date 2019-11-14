@@ -1,6 +1,13 @@
 .menu {
-  background-color: #f6f6f6;
+  background-color: #00f;
   height: 70vh;
   width: 100vw;
   min-width: 700px;
+}
+
+.menu-area {
+  height: 100%;
+  width: 70vw;
+  margin: 0 auto; /* Horizontally center work area */
+  background-color: #0f0;
 }
