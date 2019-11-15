@@ -5,6 +5,10 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="navbar-area">
+        <div className="navbar-logo-section">
+          <div className="navbar-logo-icon"></div>
+          <p className="navbar-logo-text">samhulme.com</p>
+        </div>
         <ul className="navbar-list">
           <li className="navbar-list-item">Home</li>
           <li className="navbar-list-item">Projects</li>

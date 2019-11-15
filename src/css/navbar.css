@@ -15,9 +15,34 @@
   display: inline-block;
 }
 
+.navbar-logo-section {
+  width: 200px;
+  height: 100%;
+  display: inline-flex;
+  float: left;
+}
+
+.navbar-logo-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-image: url("../images/shield.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.navbar-logo-text {
+  font-family: Reliable;
+  font-size: 20px;
+  margin: 13px 0px 0px 20px;
+  color: #fff;
+}
+
 .navbar-list {
   display: inline-flex;
-  float: left; /* Move ul to left side */
+  float: right; /* Move ul to left side */
   margin: 0px;
   padding: 0;
   height: 100%;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar.jsx";
 import Banner from "./components/Banner.jsx";
@@ -28,13 +28,17 @@ const App = () => {
       5.) Footer
   */
 
-  let currentMenuType = "About";
+  const [currentMenuType, changeCurrentMenuType] = useState("About");
+
+  const changeMenuType = newMenuType => {
+    changeCurrentMenuType(newMenuType);
+  };
 
   return (
     <div className="App">
       <NavBar />
       <Banner />
-      <MenuBar />
+      <MenuBar menuType={currentMenuType} menuChanged={changeMenuType} />
       <Menu menuType={currentMenuType} />
       <Footer />
     </div>

@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.menu-highlighted {
+  background-color: #d41e29;
+}
+
 .menu-header:hover {
   background-color: #d41e29;
   cursor: pointer;
