@@ -1,5 +1,5 @@
 .menu {
-  background-color: #00f;
+  background-color: #f6f6f6;
   height: auto;
   min-height: 700px;
   width: 100vw;
@@ -12,32 +12,45 @@
   min-height: 700px;
   min-width: 300px;
   margin: 0 auto; /* Horizontally center work area */
-  background-color: #0ff556;
   padding: 0px;
 }
 
 .menu-name {
   display: flex;
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-color: pink;
 }
 
 .about-half {
   width: 50%;
-  height: calc(100% - 200px);
+  height: calc(100% - 150px);
   min-height: 700px;
   min-width: 300px;
-  background-color: red;
   display: inline-flex;
   vertical-align: top;
   position: relative;
 }
 
-.about-picture {
+.about-picture-border {
   width: 300px;
   height: 400px;
   background-color: orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid #e7e7e7;
+  box-sizing: border-box;
+}
+
+.about-picture {
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  background-image: url("../images/profile-picture-1.jpg");
+  background-size: cover;
+  background-position: center center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,11 +58,4 @@
 }
 
 .about-info {
-  width: 300px;
-  height: 400px;
-  background-color: orange;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }

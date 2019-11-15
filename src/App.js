@@ -28,12 +28,14 @@ const App = () => {
       5.) Footer
   */
 
+  let currentMenuType = "About";
+
   return (
     <div className="App">
       <NavBar />
       <Banner />
       <MenuBar />
-      <Menu />
+      <Menu menuType={currentMenuType} />
       <Footer />
     </div>
   );
