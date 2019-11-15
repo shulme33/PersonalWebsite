@@ -1,13 +1,55 @@
 .menu {
   background-color: #00f;
-  height: 70vh;
+  height: auto;
+  min-height: 700px;
   width: 100vw;
-  min-width: 700px;
+  min-width: 400px;
 }
 
 .menu-area {
   height: 100%;
   width: 70vw;
+  min-height: 700px;
+  min-width: 300px;
   margin: 0 auto; /* Horizontally center work area */
-  background-color: #0f0;
+  background-color: #0ff556;
+  padding: 0px;
+}
+
+.menu-name {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: pink;
+}
+
+.about-half {
+  width: 50%;
+  height: calc(100% - 200px);
+  min-height: 700px;
+  min-width: 300px;
+  background-color: red;
+  display: inline-flex;
+  vertical-align: top;
+  position: relative;
+}
+
+.about-picture {
+  width: 300px;
+  height: 400px;
+  background-color: orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-info {
+  width: 300px;
+  height: 400px;
+  background-color: orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
