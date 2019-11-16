@@ -5,7 +5,10 @@ const MenuProjects = () => {
   return (
     <div className="menu">
       <div className="menu-area">
-        <div className="menu-name"></div>
+        <div className="menu-name">
+          <h1 className="menu-name-text">Projects</h1>
+          <div className="menu-name-underline"></div>
+        </div>
         <div className="about-half about-info"></div>
         <div className="about-half">
           <div className="about-picture-border">

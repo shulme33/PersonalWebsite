@@ -13,14 +13,14 @@ const MenuBar = ({ menuType, menuChanged }) => {
           currentMenu={menuType}
         />
         <MenuHeader
-          title="Projects"
-          icon="projects.svg"
+          title="About"
+          icon="about.svg"
           clickFunction={menuChanged}
           currentMenu={menuType}
         />
         <MenuHeader
-          title="About"
-          icon="about.svg"
+          title="Projects"
+          icon="projects.svg"
           clickFunction={menuChanged}
           currentMenu={menuType}
         />

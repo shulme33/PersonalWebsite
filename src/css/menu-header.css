@@ -38,6 +38,8 @@
 }
 
 .icon-resume {
+  margin: 0px auto;
+  transform: translate(8px, 0);
   background-image: url("../images/resume.png");
 }
 
