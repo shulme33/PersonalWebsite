@@ -18,7 +18,7 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
 
   const variable = (
     <div className={menuClasses} onClick={clickEventHandler}>
-      <div className="main-header-wrapper">
+      <div className="main-header-wrapper" data-container="body">
         <div className="main-header-icon"></div>
         <h3 className="main-header-title">{title}</h3>
       </div>

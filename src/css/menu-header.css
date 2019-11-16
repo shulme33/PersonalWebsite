@@ -14,6 +14,9 @@
   cursor: pointer;
 }
 
+.menu-header:hover .main-header-icon {
+}
+
 .main-header-wrapper {
   display: table-cell;
   vertical-align: middle;

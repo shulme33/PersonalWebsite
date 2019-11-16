@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../css/menu.css";
 
-const MenuAbout = () => {
+const MenuProjects = () => {
   return (
     <div className="menu">
       <div className="menu-area">
@@ -23,4 +23,4 @@ const MenuAbout = () => {
   );
 };
 
-export default MenuAbout;
+export default MenuProjects;

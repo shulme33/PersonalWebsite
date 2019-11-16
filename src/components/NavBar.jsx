@@ -12,7 +12,7 @@ const NavBar = () => {
         <ul className="navbar-list">
           <li className="navbar-list-item">Home</li>
           <li className="navbar-list-item">Projects</li>
-          <li className="navbar-list-item">Resume</li>
+          <li className="navbar-list-item">Contact Me</li>
         </ul>
       </div>
     </div>

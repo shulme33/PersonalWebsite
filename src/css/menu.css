@@ -1,7 +1,7 @@
 .menu {
   background-color: #f6f6f6;
   height: auto;
-  min-height: 700px;
+  min-height: 500px;
   width: 100vw;
   min-width: 400px;
 }
@@ -9,7 +9,7 @@
 .menu-area {
   height: 100%;
   width: 70vw;
-  min-height: 700px;
+  min-height: 500px;
   min-width: 300px;
   margin: 0 auto; /* Horizontally center work area */
   padding: 0px;
@@ -25,11 +25,13 @@
 .about-half {
   width: 50%;
   height: calc(100% - 150px);
-  min-height: 700px;
+  min-height: 500px;
   min-width: 300px;
   display: inline-flex;
   vertical-align: top;
   position: relative;
+  box-sizing: border-box;
+  border: 1px solid brown;
 }
 
 .about-picture-border {
