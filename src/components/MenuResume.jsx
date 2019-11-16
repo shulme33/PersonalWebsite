@@ -4,6 +4,7 @@ import "../css/menu.css";
 const MenuResume = () => {
   return (
     <div className="menu">
+      <h1>Hello there</h1>
       <div className="menu-area">
         <div className="menu-name"></div>
         <div className="about-half about-info"></div>

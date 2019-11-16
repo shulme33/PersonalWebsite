@@ -7,21 +7,22 @@ import "../css/menu.css";
 const Menu = ({ menuType }) => {
   React.useEffect(() => {
     console.log("Menu: " + menuType);
-    this.ListeningStateChangedEvent();
+    //this.ListeningStateChangedEvent();
   }, [menuType]);
 
   function determineMenu() {
     if (menuType === "About") {
       return <MenuAbout />;
     }
+    console.log("Switch: " + menuType.toUpperCase());
     switch (menuType.toUpperCase()) {
-      case "About":
+      case "ABOUT":
         return <MenuAbout />;
         break;
-      case "Projects":
+      case "PROJECTS":
         return <MenuProjects />;
         break;
-      case "Resume":
+      case "RESUME":
         return <MenuResume />;
         break;
     }
