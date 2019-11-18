@@ -48,13 +48,45 @@
   vertical-align: top;
   position: relative;
   box-sizing: border-box;
-  border: 1px solid brown;
+}
+
+.about-half-info {
+  width: calc(100% - 50px);
+  height: auto;
+  min-width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+.about-half-title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Karla;
+  width: 100%;
+  border-bottom: 2px solid #ea212d;
+  height: 40px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-half-text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Karla;
+  width: 100%;
+  height: auto;
+  margin: 10px 0px 0px 0px;
 }
 
 .about-picture-border {
   width: 300px;
   height: 400px;
-  background-color: orange;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -67,7 +99,6 @@
 .about-picture {
   height: calc(100% - 20px);
   width: calc(100% - 20px);
-  background-image: url("../images/profile-picture-1.jpg");
   background-size: cover;
   background-position: center center;
   position: absolute;
@@ -76,5 +107,18 @@
   transform: translate(-50%, -50%);
 }
 
-.about-info {
+.about-picture-hello {
+  background-image: url("../images/profile-picture-1.jpg");
+}
+
+.about-picture-fb {
+  background-image: url("../images/fort-benton.jpg");
+}
+
+.about-picture-fav-movie {
+  background-image: url("../images/warrior-movie.jpg");
+}
+
+.about-picture-fav-superhero {
+  background-image: url("../images/batman-funny.jpg");
 }
