@@ -8,10 +8,13 @@ const MenuAbout = () => {
   return (
     <div className="menu">
       <div className="menu-area">
+        {/* Menu Title */}
         <div className="menu-name">
           <h1 className="menu-name-text">About Me</h1>
           <div className="menu-name-underline"></div>
         </div>
+
+        {/* Profile Section */}
         <div className="about-half about-info">
           <div className="about-half-info">
             <p className="about-half-title">Hello There!</p>
@@ -25,14 +28,31 @@ const MenuAbout = () => {
           </div>
         </div>
         <div className="about-half">
-          <div className="about-picture-border">
-            <div className="about-picture about-picture-hello"></div>
+          <div
+            className="about-picture"
+            style={{ width: "320px", height: "396px" }}
+          >
+            <img
+              className="about-picture"
+              src={require("../images/profile-picture-2.jpg")}
+              alt="Profile Picture"
+              width="300"
+            />
           </div>
         </div>
 
+        {/* Hometown Section */}
         <div className="about-half">
-          <div className="about-picture-border">
-            <div className="about-picture about-picture-fb"></div>
+          <div
+            className="about-picture"
+            style={{ width: "476px", height: "320px" }}
+          >
+            <img
+              className="about-picture"
+              src={require("../images/fort-benton.jpg")}
+              alt="Profile Picture"
+              height="300"
+            />
           </div>
         </div>
         <div className="about-half about-info">
@@ -42,6 +62,7 @@ const MenuAbout = () => {
           </div>
         </div>
 
+        {/* Favorite Movie Section */}
         <div className="about-half about-info">
           <div className="about-half-info">
             <p className="about-half-title">My Favorite Movie</p>
@@ -51,14 +72,31 @@ const MenuAbout = () => {
           </div>
         </div>
         <div className="about-half">
-          <div className="about-picture-border">
-            <div className="about-picture about-picture-fav-movie"></div>
+          <div
+            className="about-picture"
+            style={{ width: "270px", height: "404px" }}
+          >
+            <img
+              className="about-picture"
+              src={require("../images/warrior-movie.jpg")}
+              alt="Profile Picture"
+              width="250"
+            />
           </div>
         </div>
 
+        {/* Favorite Superhero Section */}
         <div className="about-half">
-          <div className="about-picture-border">
-            <div className="about-picture about-picture-fav-superhero"></div>
+          <div
+            className="about-picture"
+            style={{ width: "420px", height: "420px" }}
+          >
+            <img
+              className="about-picture"
+              src={require("../images/batman-funny.jpg")}
+              alt="Profile Picture"
+              width="400"
+            />
           </div>
         </div>
         <div className="about-half about-info">

@@ -84,9 +84,7 @@
   margin: 10px 0px 0px 0px;
 }
 
-.about-picture-border {
-  width: 300px;
-  height: 400px;
+.about-picture {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -96,7 +94,18 @@
   box-sizing: border-box;
 }
 
-.about-picture {
+.about-picture-tall {
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-picture-flat {
   height: calc(100% - 20px);
   width: calc(100% - 20px);
   background-size: cover;
@@ -108,7 +117,7 @@
 }
 
 .about-picture-hello {
-  background-image: url("../images/profile-picture-1.jpg");
+  /*background-image: url("../images/profile-picture-1.jpg");*/
 }
 
 .about-picture-fb {
