@@ -41,13 +41,15 @@
 
 .about-half {
   width: 50%;
-  height: calc(100% - 150px);
-  min-height: 500px;
+  height: 420px; /*calc(100% - 150px);*/
+  margin: 40px 0px 40px 0px;
+  min-height: 40px;
   min-width: 300px;
   display: inline-flex;
   vertical-align: top;
   position: relative;
   box-sizing: border-box;
+  border: 1px solid brown;
 }
 
 .about-half-info {
@@ -59,6 +61,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
+  background-color: green;
 }
 
 .about-half-title {
@@ -92,42 +95,4 @@
   background-color: white;
   border: 2px solid #e7e7e7;
   box-sizing: border-box;
-}
-
-.about-picture-tall {
-  height: calc(100% - 20px);
-  width: calc(100% - 20px);
-  background-size: cover;
-  background-position: center center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.about-picture-flat {
-  height: calc(100% - 20px);
-  width: calc(100% - 20px);
-  background-size: cover;
-  background-position: center center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.about-picture-hello {
-  /*background-image: url("../images/profile-picture-1.jpg");*/
-}
-
-.about-picture-fb {
-  background-image: url("../images/fort-benton.jpg");
-}
-
-.about-picture-fav-movie {
-  background-image: url("../images/warrior-movie.jpg");
-}
-
-.about-picture-fav-superhero {
-  background-image: url("../images/batman-funny.jpg");
 }
