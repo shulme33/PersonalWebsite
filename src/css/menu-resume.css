@@ -32,7 +32,7 @@
 
 .resume-full {
   width: 70%;
-  height: 420px; /*calc(100% - 150px);*/
+  height: 600px; /*calc(100% - 150px);*/
   margin: 40px 0px 40px 0px;
   min-height: 40px;
   min-width: 300px;
@@ -45,9 +45,9 @@
 
 .myskills-list-section {
   width: 400px;
-  height: 300px;
-  background-color: red;
+  height: auto;
   display: inline-block;
   box-sizing: border-box;
   padding: 30px;
+  vertical-align: top; /* Override the "baseline" so it aligns the sections by top down */
 }

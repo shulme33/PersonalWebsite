@@ -23,17 +23,80 @@ const MenuResume = () => {
         </div>
 
         {/* My Skills Section */}
-        <div className="resume-full about-info">
+        <div className="resume-full">
           <div className="about-half-info">
-            <p className="about-half-title">My Skills</p>
+            <p className="about-half-title">My Technical Skills</p>
+            <div className="myskills-list-section">
+              <MySkill
+                skillName={"HTML5"}
+                numYears={"2+ Years"}
+                imagePath={"html.png"}
+              />
+              <MySkill
+                skillName={"CSS3"}
+                numYears={"2+ Years"}
+                imagePath={"css.png"}
+              />
+              <MySkill
+                skillName={"JavaScript"}
+                numYears={"2+ Years"}
+                imagePath={"js.svg"}
+              />
+              <MySkill
+                skillName={"React"}
+                numYears={"6+ Months"}
+                imagePath={"react.png"}
+              />
+              <MySkill
+                skillName={"SQL"}
+                numYears={"1+ Years"}
+                imagePath={"mysql.png"}
+              />
+            </div>
             <div className="myskills-list-section">
               <MySkill
                 skillName={"Java"}
-                numYears={"4 Years"}
-                imagePath={"../images/java.jpg"}
+                numYears={"4+ Years"}
+                imagePath={"java.png"}
+              />
+              <MySkill
+                skillName={"Python"}
+                numYears={"4+ Years"}
+                imagePath={"python.png"}
+              />
+              <MySkill
+                skillName={"C Programming"}
+                numYears={"3+ Years"}
+                imagePath={"c.png"}
+              />
+              <MySkill
+                skillName={"VB.NET"}
+                numYears={"1+ Years"}
+                imagePath={"vb.png"}
+              />
+              <MySkill
+                skillName={"GitHub/Git"}
+                numYears={"1+ Years"}
+                imagePath={"github.png"}
               />
             </div>
-            <div className="myskills-list-section"></div>
+          </div>
+        </div>
+
+        <div className="about-half about-info">
+          <div className="about-half-info">
+            <p className="about-half-title">My Favorite Movie</p>
+            <p className="about-half-text">
+              Warrior (2011)<br></br>Directed By: Gavin O'Connor
+            </p>
+          </div>
+        </div>
+        <div className="about-half about-info">
+          <div className="about-half-info">
+            <p className="about-half-title">My Favorite Movie</p>
+            <p className="about-half-text">
+              Warrior (2011)<br></br>Directed By: Gavin O'Connor
+            </p>
           </div>
         </div>
       </div>
