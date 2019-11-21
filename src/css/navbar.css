@@ -64,3 +64,18 @@
 .navbar-list-item:active {
   background-color: #ea212d;
 }
+
+.in-progress-area {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+.in-progress-text {
+  margin: 12px;
+  color: #f00;
+}

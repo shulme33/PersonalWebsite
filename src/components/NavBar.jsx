@@ -15,6 +15,12 @@ const NavBar = () => {
           <li className="navbar-list-item">Contact Me</li>
         </ul>
       </div>
+      <div className="in-progress-area">
+        <p className="in-progress-text">
+          Please note! This site is currently under construction. Some features
+          may not yet be functional.
+        </p>
+      </div>
     </div>
   );
 };
