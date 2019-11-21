@@ -36,19 +36,46 @@
   margin: 40px 0px 40px 0px;
   min-height: 40px;
   min-width: 300px;
-  display: inline-flex;
+  display: inline-block;
   vertical-align: top;
   position: relative;
   box-sizing: border-box;
+  background-color: #fff;
+  border: 3px solid #e0e0e0;
+}
+
+.resume-full-title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Karla;
+  width: 100%;
+  height: 40px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ea212d;
+  color: #fff;
+}
+
+.menu-name-text {
+  font-family: Karla;
+  margin-bottom: 0px;
 }
 
 .myskills-list-section {
-  width: 400px;
+  width: 340px;
   height: auto;
   display: inline-block;
   box-sizing: border-box;
   padding: 30px;
   vertical-align: top; /* Override the "baseline" so it aligns the sections by top down */
+}
+
+.work-exp-test-area {
+  width: auto;
+  height: auto;
+  border: 10px solid orange;
 }
 
 .work-exp-area {
