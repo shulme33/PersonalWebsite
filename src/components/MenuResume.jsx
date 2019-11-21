@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import MySkill from "./MySkill";
 import "../css/menu.css";
 import "../css/menu-resume.css";
+import { createRequireFromPath } from "module";
 
 const MenuResume = () => {
   return (
@@ -82,21 +83,30 @@ const MenuResume = () => {
             </div>
           </div>
         </div>
-
-        <div className="about-half about-info">
-          <div className="about-half-info">
-            <p className="about-half-title">My Favorite Movie</p>
-            <p className="about-half-text">
-              Warrior (2011)<br></br>Directed By: Gavin O'Connor
-            </p>
+        <div className="work-exp-area">
+          <div className="work-exp-panel">
+            <img
+              src={require("../images/fort-benton.jpg")}
+              alt="Fast Enterprises"
+              width="350"
+              height="200"
+            />
           </div>
-        </div>
-        <div className="about-half about-info">
-          <div className="about-half-info">
-            <p className="about-half-title">My Favorite Movie</p>
-            <p className="about-half-text">
-              Warrior (2011)<br></br>Directed By: Gavin O'Connor
-            </p>
+          <div className="work-exp-panel">
+            <img
+              src={require("../images/fort-benton.jpg")}
+              alt="Fast Enterprises"
+              width="350"
+              height="200"
+            />
+          </div>
+          <div className="work-exp-panel">
+            <img
+              src={require("../images/fort-benton.jpg")}
+              alt="Fast Enterprises"
+              width="350"
+              height="200"
+            />
           </div>
         </div>
       </div>

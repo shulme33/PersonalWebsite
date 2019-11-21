@@ -40,7 +40,6 @@
   vertical-align: top;
   position: relative;
   box-sizing: border-box;
-  border: 1px solid brown;
 }
 
 .myskills-list-section {
@@ -50,4 +49,19 @@
   box-sizing: border-box;
   padding: 30px;
   vertical-align: top; /* Override the "baseline" so it aligns the sections by top down */
+}
+
+.work-exp-area {
+  height: auto;
+  border: 5px solid green;
+  width: 100%;
+}
+
+.work-exp-panel {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  display: inline-flex;
+  margin: 0px 20px 0px 20px;
+  vertical-align: top;
 }
