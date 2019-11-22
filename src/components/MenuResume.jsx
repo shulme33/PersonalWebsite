@@ -106,30 +106,42 @@ const MenuResume = () => {
         <div className="work-exp-test-area">
           <div className="work-exp-area">
             <div className="work-exp-panel">
-              <img
-                src={require("../images/fort-benton.jpg")}
-                alt="Fast Enterprises"
-                width="350"
-                height="200"
-              />
+              <div className="work-exp-panel-image">
+                <img
+                  src={require("../images/fast.jpg")}
+                  alt="Implentation Consultant"
+                />
+              </div>
+              <p className="work-exp-title">Implementation Consultant</p>
             </div>
+
             <div className="work-exp-panel">
-              <img
-                src={require("../images/fort-benton.jpg")}
-                alt="Fast Enterprises"
-                width="350"
-                height="200"
-              />
+              <div className="work-exp-panel-image">
+                <img
+                  src={require("../images/msu-logo.jpg")}
+                  alt="Research Assistant"
+                />
+              </div>
+              <p className="work-exp-title">Research Assistant</p>
             </div>
+
             <div className="work-exp-panel">
-              <img
-                src={require("../images/fort-benton.jpg")}
-                alt="Fast Enterprises"
-                width="350"
-                height="200"
-              />
+              <div className="work-exp-panel-image">
+                <img
+                  src={require("../images/msu-logo.jpg")}
+                  alt="Course Assistant"
+                />
+              </div>
+              <p className="work-exp-title">Course Assistant</p>
             </div>
           </div>
+        </div>
+
+        {/***************************/}
+        {/*    Education Section    */}
+        {/***************************/}
+        <div className="resume-full">
+          <p className="resume-full-title">Education</p>
         </div>
       </div>
     </div>
