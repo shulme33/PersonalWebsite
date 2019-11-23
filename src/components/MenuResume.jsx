@@ -108,11 +108,19 @@ const MenuResume = () => {
             <div className="work-exp-panel">
               <div className="work-exp-panel-image">
                 <img
-                  src={require("../images/fast.jpg")}
+                  src={require("../images/fast.png")}
                   alt="Implentation Consultant"
                 />
               </div>
               <p className="work-exp-title">Implementation Consultant</p>
+              <p className="work-exp-dates">June 2018 - Present</p>
+              <p className="work-exp-text">
+                Utilized VB.NET and SQL to implement site specific applications
+                for administering driver and vehicle services to motor vehicle
+                agencies in New Mexico and Colorado, including an overhaul of
+                the online user interface and re-write of the vehicle
+                registration process.
+              </p>
             </div>
 
             <div className="work-exp-panel">
@@ -123,6 +131,17 @@ const MenuResume = () => {
                 />
               </div>
               <p className="work-exp-title">Research Assistant</p>
+              <p className="work-exp-dates">May 2016 - June 2018</p>
+              <p className="work-exp-text">
+                Developed interactive, web-based, virtual circuit modules
+                (breadboard, ohmmeter, impedance meter) for use in a classroom
+                setting.
+                <br></br>
+                <br></br>
+                Utilized HTML5, CSS3, and JavaScript Canvas to design an
+                interactive and engaging user interface for introductory
+                electrical engineering students.
+              </p>
             </div>
 
             <div className="work-exp-panel">
@@ -133,6 +152,15 @@ const MenuResume = () => {
                 />
               </div>
               <p className="work-exp-title">Course Assistant</p>
+              <p className="work-exp-dates">August 2016 - May 2018</p>
+              <p className="work-exp-text">
+                Instructed 40+ person lab sessions in the principles of HTML,
+                CSS, and C programming in conjunction with lecture materials.
+                <br></br>
+                <br></br>
+                Reviewed and evaluated individual student work produced during
+                lab sessions in accordance with course guidelines.
+              </p>
             </div>
           </div>
         </div>
