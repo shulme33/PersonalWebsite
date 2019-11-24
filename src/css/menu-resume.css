@@ -60,6 +60,10 @@
   color: #fff;
 }
 
+.title-bottom-spacing {
+  margin-bottom: 40px;
+}
+
 .menu-name-text {
   font-family: Karla;
   margin-bottom: 0px;
@@ -72,6 +76,7 @@
   box-sizing: border-box;
   margin: 40px 30px 0px 30px;
   vertical-align: top; /* Override the "baseline" so it aligns the sections by top down */
+  background-color: red;
 }
 
 .work-exp-test-area {
@@ -161,7 +166,7 @@
 }
 
 .education-info-section {
-  display: inline-flex;
+  display: flex;
   vertical-align: top;
   width: 60%;
   height: 200px;
@@ -171,8 +176,8 @@
 }
 
 .education-info {
-  width: 60%;
-  min-width: 400px;
+  width: 100%;
+  min-width: 300px;
   height: 60px;
   background-color: #f6f6f6;
   display: inline-flex;
@@ -181,7 +186,7 @@
   flex-direction: column;
   box-sizing: border-box;
   padding: 10px 0px;
-  margin: 5px 0px;
+  margin: 5px;
 }
 
 .education-info-text-large {

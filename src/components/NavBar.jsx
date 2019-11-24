@@ -2,6 +2,13 @@ import React from "../../node_modules/react";
 import "../css/navbar.css";
 
 const NavBar = () => {
+  //<div className="in-progress-area">
+  //      <p className="in-progress-text">
+  //        Please note! This site is currently under construction. Some features
+  //        may not yet be functional.
+  //      </p>
+  //    </div>
+
   return (
     <div className="navbar">
       <div className="navbar-area">
@@ -15,12 +22,6 @@ const NavBar = () => {
           </li>
           <li className="navbar-list-item">Contact Me</li>
         </ul>
-      </div>
-      <div className="in-progress-area">
-        <p className="in-progress-text">
-          Please note! This site is currently under construction. Some features
-          may not yet be functional.
-        </p>
       </div>
     </div>
   );

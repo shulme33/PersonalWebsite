@@ -43,12 +43,17 @@ const MenuProjects = () => {
             
             */}
             <div className="work-exp-panel">
-              <div className="work-exp-panel-image"></div>
+              <div className="work-exp-panel-image">
+                <img
+                  src={require("../images/projects/huffman-code.png")}
+                  alt="Course Assistant"
+                />
+              </div>
               <p className="work-exp-title">Huffman Coding</p>
               <p className="project-text">
-                Utilized VB.NET and SQL to implement site specific applications
-                for administering driver and vehicle services to motor vehicle
-                agencies in New Mexico.
+                A simple implementation of the Huffman Coding compression
+                algorithm. This particular instance of the algorithm is written
+                in Python.
               </p>
               <a href={"https://github.com/shulme33/HuffmanCode"}>
                 <button className="view-button">View on GitHub</button>
@@ -66,12 +71,17 @@ const MenuProjects = () => {
             */}
 
             <div className="work-exp-panel">
-              <div className="work-exp-panel-image"></div>
+              <div className="work-exp-panel-image">
+                <img
+                  src={require("../images/projects/personal-website.png")}
+                  alt="Course Assistant"
+                />
+              </div>
               <p className="work-exp-title">Personal Website</p>
               <p className="project-text">
-                Developed interactive, web-based, virtual circuit modules
-                (breadboard, ohmmeter, impedance meter) for use in a classroom
-                setting.
+                The very website you are viewing right now! This is a place for
+                me to experiment with a variety of technologies as well as one
+                to showcase my skills and projects to others.
               </p>
 
               <a href={"https://github.com/shulme33/PersonalWebsite_V1"}>
@@ -89,11 +99,17 @@ const MenuProjects = () => {
             
             */}
             <div className="work-exp-panel">
-              <div className="work-exp-panel-image"></div>
+              <div className="work-exp-panel-image">
+                <img
+                  src={require("../images/projects/breadboard.png")}
+                  alt="Course Assistant"
+                />
+              </div>
               <p className="work-exp-title">Virtual Breadboard</p>
               <p className="project-text">
-                Instructed 40+ person lab sessions in the principles of HTML,
-                CSS, and C programming in conjunction with lecture materials.
+                A web application built in HTML, CSS, and JavaScript that allows
+                a user to simulate a variety of electrical circuits through use
+                of an interactive breadboard, voltmeter, and ohmmeter.
               </p>
 
               <a href={"https://github.com/shulme33/BeckerSummerProjects"}>

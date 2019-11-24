@@ -13,6 +13,10 @@
   min-width: 300px;
   margin: 0 auto; /* Horizontally center work area */
   padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-name {

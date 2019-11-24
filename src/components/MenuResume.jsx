@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MySkill from "./MySkill";
-import Pdf from "../images/Samuel_Hulme_Resume.pdf";
+import Pdf from "../images/Samuel_Hulme_Web_Resume.pdf";
 import "../css/menu.css";
 import "../css/menu-resume.css";
 import { createRequireFromPath } from "module";
@@ -34,73 +34,70 @@ const MenuResume = () => {
         {/*    My Skills Section    */}
         {/***************************/}
         <div className="resume-full">
-          <p className="resume-full-title">My Technical Skills</p>
-          <div className="myskills-list-section">
-            <MySkill
-              skillName={"HTML5"}
-              numYears={"2+ Years"}
-              imagePath={"html.png"}
-            />
-            <MySkill
-              skillName={"CSS3"}
-              numYears={"2+ Years"}
-              imagePath={"css.png"}
-            />
-            <MySkill
-              skillName={"JavaScript"}
-              numYears={"2+ Years"}
-              imagePath={"js.svg"}
-            />
-            <MySkill
-              skillName={"React"}
-              numYears={"6+ Months"}
-              imagePath={"react.png"}
-            />
-          </div>
-          <div className="myskills-list-section">
-            <MySkill
-              skillName={"Java"}
-              numYears={"4+ Years"}
-              imagePath={"java.png"}
-            />
-            <MySkill
-              skillName={"Python"}
-              numYears={"4+ Years"}
-              imagePath={"python.png"}
-            />
-            <MySkill
-              skillName={"C Programming"}
-              numYears={"3+ Years"}
-              imagePath={"c.png"}
-            />
-            <MySkill
-              skillName={"VB.NET"}
-              numYears={"1+ Years"}
-              imagePath={"vb.png"}
-            />
-          </div>
-          <div className="myskills-list-section">
-            <MySkill
-              skillName={"SQL"}
-              numYears={"1+ Years"}
-              imagePath={"mysql.png"}
-            />
-            <MySkill
-              skillName={"GitHub/Git"}
-              numYears={"1+ Years"}
-              imagePath={"github.png"}
-            />
-            <MySkill
-              skillName={"Microsoft Office"}
-              numYears={"8+ Years"}
-              imagePath={"office.png"}
-            />
-            <MySkill
-              skillName={"Skyrim"}
-              numYears={"4+ Years"}
-              imagePath={"skyrim.png"}
-            />
-          </div>
+          <p className="resume-full-title title-bottom-spacing">
+            My Technical Skills
+          </p>
+          <MySkill
+            skillName={"HTML5"}
+            numYears={"2+ Years"}
+            imagePath={"html.png"}
+          />
+          <MySkill
+            skillName={"CSS3"}
+            numYears={"2+ Years"}
+            imagePath={"css.png"}
+          />
+          <MySkill
+            skillName={"JavaScript"}
+            numYears={"2+ Years"}
+            imagePath={"js.svg"}
+          />
+          <MySkill
+            skillName={"React"}
+            numYears={"6+ Months"}
+            imagePath={"react.png"}
+          />
+
+          <MySkill
+            skillName={"Java"}
+            numYears={"4+ Years"}
+            imagePath={"java.png"}
+          />
+          <MySkill
+            skillName={"Python"}
+            numYears={"4+ Years"}
+            imagePath={"python.png"}
+          />
+          <MySkill
+            skillName={"C Programming"}
+            numYears={"3+ Years"}
+            imagePath={"c.png"}
+          />
+          <MySkill
+            skillName={"VB.NET"}
+            numYears={"1+ Years"}
+            imagePath={"vb.png"}
+          />
+          <MySkill
+            skillName={"SQL"}
+            numYears={"1+ Years"}
+            imagePath={"mysql.png"}
+          />
+          <MySkill
+            skillName={"GitHub/Git"}
+            numYears={"1+ Years"}
+            imagePath={"github.png"}
+          />
+          <MySkill
+            skillName={"Microsoft Office"}
+            numYears={"8+ Years"}
+            imagePath={"office.png"}
+          />
+          <MySkill
+            skillName={"Skyrim"}
+            numYears={"4+ Years"}
+            imagePath={"skyrim.png"}
+          />
         </div>
 
         {/***************************/}

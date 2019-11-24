@@ -1,8 +1,10 @@
 .skill {
-  width: 100%;
+  width: 30%;
+  min-width: 300px;
   height: 70px;
-  margin: 5px 0px 5px 0px;
+  margin: 5px;
   background-color: #f6f6f6;
+  display: inline-flex;
 }
 
 .skill-logo {
