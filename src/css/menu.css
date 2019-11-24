@@ -60,6 +60,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
+  background-color: #fff;
+  border: 3px solid #e0e0e0;
 }
 
 .about-half-title {
@@ -68,7 +70,8 @@
   display: flex;
   font-family: Karla;
   width: 100%;
-  border-bottom: 2px solid #ea212d;
+  background-color: #ea212d;
+  color: #fff;
   height: 40px;
   margin: 0px;
   font-size: 20px;
@@ -82,7 +85,9 @@
   font-family: Karla;
   width: 100%;
   height: auto;
-  margin: 10px 0px 0px 0px;
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .about-picture {
@@ -91,6 +96,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  border: 2px solid #e7e7e7;
+  border: 3px solid #e0e0e0;
   box-sizing: border-box;
+}
+
+.about-picture img {
+  border: none;
 }

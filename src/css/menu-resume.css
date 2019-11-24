@@ -77,6 +77,7 @@
 .work-exp-test-area {
   width: auto;
   height: auto;
+  margin: 0px -20px;
 }
 
 .work-exp-area {
@@ -191,13 +192,3 @@
 .education-info-text-small {
   margin: 0px;
 }
-
-/*
-.myskills-list-section {
-  width: 300px;
-  height: auto;
-  display: inline-block;
-  box-sizing: border-box;
-  margin: 0px 30px 0px 30px;
-  vertical-align: top;
-}*/
