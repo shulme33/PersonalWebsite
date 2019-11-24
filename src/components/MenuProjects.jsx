@@ -16,6 +16,18 @@ const MenuProjects = () => {
         </div>
 
         {/***************************/}
+        {/*     Download Section    */}
+        {/***************************/}
+        <div className="download-resume">
+          <p>
+            Want to see my GitHub?<br></br>Take a look!
+          </p>
+          <a href={"https://github.com/shulme33"}>
+            <button className="download-button">View My GitHub</button>
+          </a>
+        </div>
+
+        {/***************************/}
         {/* Work Experience Section */}
         {/***************************/}
         <div className="work-exp-test-area">

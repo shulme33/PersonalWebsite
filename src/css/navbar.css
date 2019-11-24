@@ -56,6 +56,12 @@
   align-items: center; /* Vertically align */
 }
 
+.navbar-list-item a,
+.navbar-list-item a.new:visited {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar-list-item:hover {
   background-color: #d41e29;
   cursor: pointer;
