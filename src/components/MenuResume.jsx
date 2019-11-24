@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MySkill from "./MySkill";
+import Pdf from "../images/Samuel_Hulme_Resume.pdf";
 import "../css/menu.css";
 import "../css/menu-resume.css";
 import { createRequireFromPath } from "module";
@@ -24,7 +25,9 @@ const MenuResume = () => {
             Prefer a PDF version? View one now!<br></br>Note: This is not a
             download.
           </p>
-          <button className="download-button">View PDF Resume</button>
+          <a href={Pdf} target="_blank">
+            <button className="download-button">View PDF Resume</button>
+          </a>
         </div>
 
         {/***************************/}
@@ -136,8 +139,8 @@ const MenuResume = () => {
                 Developed interactive, web-based, virtual circuit modules
                 (breadboard, ohmmeter, impedance meter) for use in a classroom
                 setting.
-                <br></br>
-                <br></br>
+              </p>
+              <p className="work-exp-text">
                 Utilized HTML5, CSS3, and JavaScript Canvas to design an
                 interactive and engaging user interface for introductory
                 electrical engineering students.
@@ -156,8 +159,8 @@ const MenuResume = () => {
               <p className="work-exp-text">
                 Instructed 40+ person lab sessions in the principles of HTML,
                 CSS, and C programming in conjunction with lecture materials.
-                <br></br>
-                <br></br>
+              </p>
+              <p className="work-exp-text">
                 Reviewed and evaluated individual student work produced during
                 lab sessions in accordance with course guidelines.
               </p>
@@ -168,8 +171,62 @@ const MenuResume = () => {
         {/***************************/}
         {/*    Education Section    */}
         {/***************************/}
-        <div className="resume-full">
+        <div className="resume-full education-full">
           <p className="resume-full-title">Education</p>
+          <div className="education-section">
+            <div className="education-picture">
+              <img
+                src={require("../images/bobcat.png")}
+                alt="Montana State University"
+              />
+            </div>
+            <div className="education-info-section">
+              <div className="education-info">
+                <p className="education-info-text-large">
+                  Montana State University
+                </p>
+                <p className="education-info-text-small">
+                  August 2013 – May 2018
+                </p>
+              </div>
+              <div className="education-info">
+                <p className="education-info-text-large">
+                  B.S. in Computer Science
+                </p>
+                <p className="education-info-text-small">
+                  with Minor in Electrical Engineering
+                </p>
+              </div>
+              <div className="education-info">
+                <p className="education-info-text-large">Overall GPA</p>
+                <p className="education-info-text-small">3.59</p>
+              </div>
+            </div>
+          </div>
+          <div className="education-section">
+            <div className="education-picture">
+              <img
+                src={require("../images/longhorns.png")}
+                alt="Montana State University"
+              />
+            </div>
+            <div className="education-info-section">
+              <div className="education-info">
+                <p className="education-info-text-large">
+                  Fort Benton High School
+                </p>
+                <p className="education-info-text-small">
+                  August 2009 – May 2013
+                </p>
+              </div>
+              <div className="education-info">
+                <p className="education-info-text-large">
+                  Class Rank at Graduation
+                </p>
+                <p className="education-info-text-small">1st</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
