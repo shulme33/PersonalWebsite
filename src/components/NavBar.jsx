@@ -10,8 +10,7 @@ const NavBar = () => {
           <p className="navbar-logo-text">samhulme.com</p>
         </div>
         <ul className="navbar-list">
-          <li className="navbar-list-item">Home</li>
-          <li className="navbar-list-item">Projects</li>
+          <li className="navbar-list-item">View My GitHub</li>
           <li className="navbar-list-item">Contact Me</li>
         </ul>
       </div>

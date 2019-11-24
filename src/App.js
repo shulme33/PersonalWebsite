@@ -28,7 +28,7 @@ const App = () => {
       5.) Footer
   */
 
-  const [currentMenuType, changeCurrentMenuType] = useState("About");
+  const [currentMenuType, changeCurrentMenuType] = useState("Projects");
 
   const changeMenuType = newMenuType => {
     changeCurrentMenuType(newMenuType);
