@@ -29,15 +29,24 @@ const App = () => {
   */
 
   const [currentMenuType, changeCurrentMenuType] = useState("About");
+  const [showContactForm, changeShowContactForm] = useState(false);
 
   const changeMenuType = newMenuType => {
     changeCurrentMenuType(newMenuType);
   };
 
+  const changeCurrentShowContactForm = () => {
+    console.log("Contact Clicked >> " + showContactForm);
+    changeShowContactForm(!showContactForm);
+  };
+
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
+      <NavBar
+        contactForm={showContactForm}
+        contactClicked={changeCurrentShowContactForm}
+      />
+      <Banner showContactForm={showContactForm} />
       <MenuBar menuType={currentMenuType} menuChanged={changeMenuType} />
       <Menu menuType={currentMenuType} />
       <Footer />

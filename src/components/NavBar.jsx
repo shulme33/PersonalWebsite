@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../css/navbar.css";
 
-const NavBar = () => {
+const NavBar = ({ showContactForm, contactClicked }) => {
   const [logoClasses, changeCurrentLogoClasses] = useState(
     "navbar-logo-section"
   );
@@ -56,6 +56,11 @@ const NavBar = () => {
     }
   };
 
+  const clickContactMe = () => {
+    console.log("Clicked");
+    contactClicked();
+  };
+
   return (
     <div className="navbar">
       <div className="navbar-area">
@@ -67,7 +72,9 @@ const NavBar = () => {
           <li className={listItemClasses}>
             <a href={"https://github.com/shulme33"}>View My GitHub</a>
           </li>
-          <li className={listItemClasses}>Contact Me</li>
+          <li className={listItemClasses} onClick={clickContactMe}>
+            Contact Me
+          </li>
         </ul>
       </div>
     </div>
