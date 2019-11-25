@@ -1,9 +1,19 @@
-import React from "../../node_modules/react";
+import React, { useEffect, useState } from "../../node_modules/react";
 import "../css/menu-header.css";
 
 const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
+  const [iconClasses, changeIconClasses] = useState("icon-about");
+
+  useEffect(() => {
+    determineIconClasses();
+  }, []);
+
   const clickEventHandler = () => {
     clickFunction(title);
+  };
+
+  const changeCurrentIconClasses = () => {
+    changeIconClasses("icon-about");
   };
 
   const determineMenuClasses = () => {
@@ -33,7 +43,6 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   };
 
   let menuClasses = determineMenuClasses();
-  let iconClasses = determineIconClasses();
 
   const variable = (
     <div className={menuClasses} onClick={clickEventHandler}>
