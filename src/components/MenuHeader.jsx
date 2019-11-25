@@ -3,18 +3,28 @@ import "../css/menu-header.css";
 
 const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   const [iconClasses, changeIconClasses] = useState("icon-about");
+  const [headerTitleClasses, changeHeaderTitleClasses] = useState(
+    "main-header-title"
+  );
 
   useEffect(() => {
     determineIconClasses();
+    determineHeaderTitleClasses();
   }, []);
 
   const clickEventHandler = () => {
     clickFunction(title);
   };
 
-  const changeCurrentIconClasses = () => {
-    changeIconClasses("icon-about");
-  };
+  window.addEventListener(
+    "resize",
+    () => {
+      console.log(window.innerWidth);
+      determineIconClasses();
+      determineHeaderTitleClasses();
+    },
+    false
+  );
 
   const determineMenuClasses = () => {
     let classes = "menu-header ";
@@ -25,21 +35,32 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   };
 
   const determineIconClasses = () => {
-    console.log("Icon Classes: " + title.toUpperCase());
     let classes = "main-header-icon ";
     switch (title.toUpperCase()) {
       case "ABOUT":
-        classes += "icon-about";
+        classes += "icon-about ";
         break;
       case "PROJECTS":
-        classes += "icon-projects";
+        classes += "icon-projects ";
         break;
       case "RESUME":
-        console.log("BROO");
-        classes += "icon-resume";
+        classes += "icon-resume ";
         break;
     }
-    return classes;
+
+    if (window.innerWidth * 0.7 < 600) {
+      classes += "icon-small";
+    }
+    changeIconClasses(classes);
+  };
+
+  const determineHeaderTitleClasses = () => {
+    let classes = "main-header-title ";
+    if (window.innerWidth * 0.7 < 600) {
+      console.log("Small");
+      classes += "header-title-small";
+    }
+    changeHeaderTitleClasses(classes);
   };
 
   let menuClasses = determineMenuClasses();
@@ -48,7 +69,7 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
     <div className={menuClasses} onClick={clickEventHandler}>
       <div className="main-header-wrapper" data-container="body">
         <div className={iconClasses}></div>
-        <h3 className="main-header-title">{title}</h3>
+        <h3 className={headerTitleClasses}>{title}</h3>
       </div>
     </div>
   );

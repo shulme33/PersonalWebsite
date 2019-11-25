@@ -14,9 +14,6 @@
   cursor: pointer;
 }
 
-.menu-header:hover .main-header-icon {
-}
-
 .main-header-wrapper {
   display: table-cell;
   vertical-align: middle;
@@ -27,6 +24,11 @@
   height: 100px;
   background-size: 100% 100%;
   margin: 0 auto;
+}
+
+.icon-small {
+  width: 70px;
+  height: 70px;
 }
 
 .icon-about {
@@ -49,4 +51,8 @@
   font-family: Karla;
   font-size: 25px;
   font-weight: bold;
+}
+
+.header-title-small {
+  font-size: 20px;
 }

@@ -22,7 +22,6 @@ const NavBar = () => {
     "resize",
     () => {
       const smallScreen = window.innerWidth * 0.7 < 600;
-      console.log(window.innerWidth);
       changeLogoClasses(smallScreen);
       changeListClasses(smallScreen);
       changeListItemClasses(smallScreen);
