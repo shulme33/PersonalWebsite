@@ -1,6 +1,7 @@
 .navbar {
   background-color: #353535;
   width: 100vw;
+  min-width: 400px;
   height: auto;
   margin: 0px;
   font-family: Karla;

@@ -10,6 +10,7 @@
   height: 45vh;
   min-height: 400px;
   width: 100vw;
+  min-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,6 +71,7 @@
   min-width: 200px;
   border: 3px solid #e0e0e0;
   height: 20px;
+  font-family: Karla;
 }
 
 .contact-text-area {
@@ -78,6 +80,7 @@
   height: 30%;
   resize: none;
   border: 3px solid #e0e0e0;
+  font-family: Karla;
 }
 
 .contact-submit-button {
