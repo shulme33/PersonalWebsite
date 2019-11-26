@@ -20,7 +20,6 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   window.addEventListener(
     "resize",
     () => {
-      console.log(window.innerWidth);
       determineIconClasses();
       determineHeaderTitleClasses();
     },
@@ -62,7 +61,6 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   const determineHeaderTitleClasses = () => {
     let classes = "main-header-title ";
     if (window.innerWidth * 0.7 < 600) {
-      console.log("Small");
       classes += "header-title-small";
     }
     changeHeaderTitleClasses(classes);
