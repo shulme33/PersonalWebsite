@@ -24,13 +24,38 @@ const MenuAbout = () => {
                 alt="Profile Picture"
               />
             </div>
-            <p className="about-half-text">
-              Hi! My name is Sam Hulme and I hope that you like my website. The
-              main purpose of this website is to provide me with a fun place to
-              experiment with various technologies and display my projects. Feel
-              free to poke around and/or contact me if you have any questions or
-              would just like to get in touch!
-            </p>
+            <div className="about-half-text">
+              <p>
+                Hi! My name is Sam Hulme and I hope that you like my website.
+                The main purpose of this website is to provide me with a fun
+                place to experiment with various technologies and display my
+                projects. Feel free to poke around and/or contact me if you have
+                any questions or would just like to get in touch!
+              </p>
+              <div className="social-media-section">
+                <a href={"https://www.linkedin.com/in/samuel-hulme-079a3314b/"}>
+                  <img
+                    src={require("../images/linkedin.svg")}
+                    alt="LinkedIn"
+                    className="social-media-icon"
+                  />
+                </a>
+                <a href={"https://www.facebook.com/sam.hulme.7?"}>
+                  <img
+                    src={require("../images/facebook.svg")}
+                    alt="Facebook"
+                    className="social-media-icon"
+                  />
+                </a>
+                <a href={"https://github.com/shulme33"}>
+                  <img
+                    src={require("../images/github-logo.svg")}
+                    alt="GitHub"
+                    className="social-media-icon"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
