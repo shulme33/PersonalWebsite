@@ -69,10 +69,13 @@ const NavBar = ({ showContactForm, contactClicked }) => {
           <p className="navbar-logo-text">samhulme.com</p>
         </div>
         <ul className={listClasses}>
-          <li className={listItemClasses}>
+          <li className={listItemClasses + " list-item-github"}>
             <a href={"https://github.com/shulme33"}>View My GitHub</a>
           </li>
-          <li className={listItemClasses} onClick={clickContactMe}>
+          <li
+            className={listItemClasses + " list-item-contact"}
+            onClick={clickContactMe}
+          >
             Contact Me
           </li>
         </ul>

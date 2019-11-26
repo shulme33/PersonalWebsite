@@ -10,6 +10,7 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   useEffect(() => {
     determineIconClasses();
     determineHeaderTitleClasses();
+    determineMenuClasses();
   }, []);
 
   const clickEventHandler = () => {
@@ -29,7 +30,11 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   const determineMenuClasses = () => {
     let classes = "menu-header ";
     if (title === currentMenu) {
-      classes += "menu-highlighted";
+      classes += "menu-highlighted ";
+    }
+
+    if (window.innerWidth * 0.7 < 600) {
+      classes += "menu-header-small";
     }
     return classes;
   };

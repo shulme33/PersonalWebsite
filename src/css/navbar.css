@@ -85,6 +85,14 @@
   justify-content: center;
 }
 
+.list-item-contact {
+  width: 175px;
+}
+
+.list-item-github {
+  width: 225px;
+}
+
 .navbar-list-item a,
 .navbar-list-item a.new:visited,
 .navbar-list-item-small a,

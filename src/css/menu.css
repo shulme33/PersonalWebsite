@@ -53,6 +53,7 @@
   vertical-align: top;
   position: relative;
   box-sizing: border-box;
+  background-color: pink;
 }
 
 .about-half-info {
@@ -88,6 +89,7 @@
   display: flex;
   font-family: Karla;
   width: 60%;
+  min-width: 275px;
   height: auto;
   margin: 0px;
   padding: 10px;

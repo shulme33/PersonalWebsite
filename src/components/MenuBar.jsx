@@ -1,11 +1,27 @@
-import React from "../../node_modules/react";
+import React, { useEffect, useState } from "../../node_modules/react";
 import MenuHeader from "../components/MenuHeader";
 import "../css/menubar.css";
 
 const MenuBar = ({ menuType, menuChanged }) => {
+  const [menubarAreaClasses, changeMenuBarClasses] = useState("menu-bar-area");
+
+  useEffect(() => {
+    determineCurrentMenuBarClasses();
+  }, []);
+
+  const determineCurrentMenuBarClasses = () => {
+    let classes = "menu-bar-area ";
+
+    if (window.innerWidth * 0.7 < 600) {
+      classes += "menu-bar-area-small ";
+    }
+
+    changeMenuBarClasses(classes);
+  };
+
   return (
     <div className="menu-bar">
-      <div className="menu-bar-area">
+      <div className={menubarAreaClasses}>
         <MenuHeader
           title="Resume"
           icon="resume.svg"

@@ -12,3 +12,7 @@
   display: inline-block;
   margin: 0 auto;
 }
+
+.menu-bar-area-small {
+  width: 100vw;
+}

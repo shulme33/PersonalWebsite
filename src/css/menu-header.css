@@ -26,6 +26,10 @@
   margin: 0 auto;
 }
 
+.menu-header-small {
+  width: 33.33vw;
+}
+
 .icon-small {
   width: 70px;
   height: 70px;
