@@ -126,6 +126,85 @@ const MenuProjects = () => {
             
             
             */}
+            <div className="work-exp-panel">
+              <div className="work-exp-panel-image">
+                <img
+                  src={require("../images/projects/edamam.jpg")}
+                  alt="Course Assistant"
+                />
+              </div>
+              <p className="work-exp-title">Edamam API</p>
+              <p className="project-text">
+                A React application built around the Edamam API. This
+                application is given some search critieria and returns recipes
+                based on that input.
+              </p>
+
+              <a href={"https://github.com/shulme33/EdamamRecipeAPI"}>
+                <button className="view-button">View on GitHub</button>
+              </a>
+            </div>
+            {/*
+            
+            
+            
+            
+            
+            
+            
+            
+            */}
+            <div className="work-exp-panel">
+              <div className="work-exp-panel-image">
+                <img
+                  src={require("../images/projects/minesweeper.png")}
+                  alt="Course Assistant"
+                />
+              </div>
+              <p className="work-exp-title">Mine Sweeper</p>
+              <p className="project-text">
+                An implementation of the popular Mine Sweeper game with Java and
+                JavaFX.
+              </p>
+
+              <a href={"https://github.com/shulme33/BeckerSummerProjects"}>
+                <button className="view-button">View on GitHub</button>
+              </a>
+            </div>
+            {/*
+            
+            
+            
+            
+            
+            
+            
+            
+            */}
+            <div className="work-exp-panel">
+              <div className="work-exp-panel-image">
+                <img src={require("../images/c.png")} alt="Course Assistant" />
+              </div>
+              <p className="work-exp-title">C Programming</p>
+              <p className="project-text">
+                A set of C programming labs that I wrote while tutoring for the
+                class in college.
+              </p>
+
+              <a href={"https://github.com/shulme33/BeckerSummerProjects"}>
+                <button className="view-button">View on GitHub</button>
+              </a>
+            </div>
+            {/*
+            
+            
+            
+            
+            
+            
+            
+            
+            */}
           </div>
         </div>
       </div>
