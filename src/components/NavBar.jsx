@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
-import "../css/navbar.css";
+import "../css/home-page/navbar.css";
 
-const NavBar = ({ showContactForm, contactClicked }) => {
+const NavBar = ({
+  showContactForm,
+  contactClicked,
+  trackerClicked,
+  homeClicked,
+}) => {
   const [logoClasses, changeCurrentLogoClasses] = useState(
     "navbar-logo-section"
   );
@@ -29,7 +34,7 @@ const NavBar = ({ showContactForm, contactClicked }) => {
     false
   );
 
-  const changeLogoClasses = blnSmallScreen => {
+  const changeLogoClasses = (blnSmallScreen) => {
     const largeLogoClasses = "navbar-logo-section";
     const smallLogoClasses = "navbar-logo-section-small";
 
@@ -40,7 +45,7 @@ const NavBar = ({ showContactForm, contactClicked }) => {
     }
   };
 
-  const changeListClasses = blnSmallScreen => {
+  const changeListClasses = (blnSmallScreen) => {
     if (blnSmallScreen) {
       changeCurrentListClasses("navbar-list-small");
     } else {
@@ -48,7 +53,7 @@ const NavBar = ({ showContactForm, contactClicked }) => {
     }
   };
 
-  const changeListItemClasses = blnSmallScreen => {
+  const changeListItemClasses = (blnSmallScreen) => {
     if (blnSmallScreen) {
       changeCurrentListItemClasses("navbar-list-item-small");
     } else {
@@ -69,6 +74,18 @@ const NavBar = ({ showContactForm, contactClicked }) => {
           <p className="navbar-logo-text">samhulme.com</p>
         </div>
         <ul className={listClasses}>
+          <li
+            className={listItemClasses + " list-item-github"}
+            onClick={homeClicked}
+          >
+            Home
+          </li>
+          <li
+            className={listItemClasses + " list-item-github"}
+            onClick={trackerClicked}
+          >
+            Calorie Tracker
+          </li>
           <li className={listItemClasses + " list-item-github"}>
             <a href={"https://github.com/shulme33"}>View My GitHub</a>
           </li>

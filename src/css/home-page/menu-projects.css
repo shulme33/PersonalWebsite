@@ -1,0 +1,32 @@
+.view-button {
+  border-radius: 4px;
+  background-color: #ea212d;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  margin: 5px;
+  float: down;
+}
+
+.view-button:active {
+  background-color: #d41e29; /* Darkens button as it is clicked */
+}
+
+.view-button:focus {
+  /* Removes blue border after button is clicked */
+  outline: none;
+}
+
+.project-text {
+  text-align: left;
+  margin-left: 20px;
+  background-color: #f6f6f6;
+  width: calc(100% - 40px);
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}

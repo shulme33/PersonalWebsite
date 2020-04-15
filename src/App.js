@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
 import NavBar from "./components/NavBar.jsx";
-import Banner from "./components/Banner.jsx";
-import MenuBar from "./components/MenuBar";
-import Menu from "./components/Menu";
-import Footer from "./components/Footer.jsx";
+import Footer from "./components/home-page/Footer.jsx";
+import AppDecision from "./components/AppDecision";
+import "./App.css";
 import "./fonts/Karla.ttf";
 import "./fonts/Reliable.otf";
 
@@ -28,27 +26,23 @@ const App = () => {
       5.) Footer
   */
 
-  const [currentMenuType, changeCurrentMenuType] = useState("About");
-  const [showContactForm, changeShowContactForm] = useState(false);
-
-  const changeMenuType = newMenuType => {
-    changeCurrentMenuType(newMenuType);
-  };
-
-  const changeCurrentShowContactForm = () => {
-    console.log("Contact Clicked >> " + showContactForm);
-    changeShowContactForm(!showContactForm);
-  };
+  const [application, changeApplication] = useState("Home"); //Home, Tracker, ContactMe
 
   return (
     <div className="App">
       <NavBar
-        contactForm={showContactForm}
-        contactClicked={changeCurrentShowContactForm}
+        contactForm={false}
+        contactClicked={() => {
+          changeApplication("ContactMe");
+        }}
+        trackerClicked={() => {
+          changeApplication("Tracker");
+        }}
+        homeClicked={() => {
+          changeApplication("Home");
+        }}
       />
-      <Banner showContactForm={showContactForm} />
-      <MenuBar menuType={currentMenuType} menuChanged={changeMenuType} />
-      <Menu menuType={currentMenuType} />
+      <AppDecision application={application} />
       <Footer />
     </div>
   );

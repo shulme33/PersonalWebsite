@@ -1,0 +1,18 @@
+.menu-bar {
+  background-color: #ea212d;
+  height: 20vh;
+  width: 100%;
+  min-height: 200px;
+  min-width: 400px;
+}
+
+.menu-bar-area {
+  height: 100%;
+  width: 70vw;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.menu-bar-area-small {
+  width: 100vw;
+}
