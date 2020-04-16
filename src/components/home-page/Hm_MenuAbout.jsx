@@ -5,7 +5,7 @@ import "../../css/home-page/menu-resume.css";
 //<p className="about-half-title">Where I Grew Up</p>
 //<p className="about-half-text">Fort Benton, Montana</p>
 
-const MenuAbout = () => {
+const Hm_MenuAbout = () => {
   return (
     <div className="menu">
       <div className="menu-area">
@@ -104,4 +104,4 @@ const MenuAbout = () => {
   );
 };
 
-export default MenuAbout;
+export default Hm_MenuAbout;

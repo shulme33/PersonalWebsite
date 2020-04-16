@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "./components/NavBar.jsx";
-import Footer from "./components/home-page/Footer.jsx";
+import Hm_Footer from "./components/home-page/Hm_Footer.jsx";
 import AppDecision from "./components/AppDecision";
 import "./App.css";
 import "./fonts/Karla.ttf";
@@ -26,7 +26,7 @@ const App = () => {
       5.) Footer
   */
 
-  const [application, changeApplication] = useState("Home"); //Home, Tracker, ContactMe
+  const [application, changeApplication] = useState("Tracker"); //Home, Tracker, ContactMe
 
   return (
     <div className="App">
@@ -43,7 +43,7 @@ const App = () => {
         }}
       />
       <AppDecision application={application} />
-      <Footer />
+      <Hm_Footer />
     </div>
   );
 };

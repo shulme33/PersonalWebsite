@@ -3,13 +3,13 @@ import "../../css/home-page/my-skill.css";
 
 //style={{ backgroundImage: `url(${imagePath2})` }}
 
-const MySkill = ({ skillName, numYears, imagePath }) => {
+const Hm_MySkill = ({ skillName, numYears, imagePath }) => {
   return (
     <div className="skill">
       <div className="skill-logo">
         <img
           src={require(`../../images/${imagePath}`)}
-          alt="Test Image"
+          alt="Test"
           height="50"
         />
       </div>
@@ -21,4 +21,4 @@ const MySkill = ({ skillName, numYears, imagePath }) => {
   );
 };
 
-export default MySkill;
+export default Hm_MySkill;

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "../../App.css";
-import Banner from "./Banner.jsx";
-import MenuBar from "./MenuBar";
-import Menu from "./Menu";
-import CalorieTrackerApp from "../calorie-tracker/AppTracker.jsx";
+import Hm_Banner from "./Hm_Banner.jsx";
+import MenuBar from "./Hm_MenuBar";
+import Hm_Menu from "./Hm_Menu";
+import Tr_App from "../calorie-tracker/Tr_App.jsx";
 import "../../fonts/Karla.ttf";
 import "../../fonts/Reliable.otf";
 
-const HomeApp = () => {
+const Hm_App = () => {
   /*
     Comments
 
@@ -47,15 +47,15 @@ const HomeApp = () => {
     //Home Screen
     return (
       <div className="App">
-        <Banner showContactForm={showContactForm} />
+        <Hm_Banner showContactForm={showContactForm} />
         <MenuBar menuType={currentMenuType} menuChanged={changeMenuType} />
-        <Menu menuType={currentMenuType} />
+        <Hm_Menu menuType={currentMenuType} />
       </div>
     );
   } else if (whichApplication == "Tracker") {
     //Calorie Tracker
-    return <CalorieTrackerApp />;
+    return <Tr_App />;
   }
 };
 
-export default HomeApp;
+export default Hm_App;

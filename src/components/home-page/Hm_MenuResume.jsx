@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import MySkill from "./MySkill";
+import Hm_MySkill from "./Hm_MySkill";
 import Pdf from "../../images/Samuel_Hulme_Web_Resume.pdf";
 import "../../css/home-page/menu.css";
 import "../../css/home-page/menu-resume.css";
 import { createRequireFromPath } from "module";
 
-const MenuResume = () => {
+const Hm_MenuResume = () => {
   return (
     <div className="menu">
       <div className="menu-area">
@@ -37,63 +37,63 @@ const MenuResume = () => {
           <p className="resume-full-title title-bottom-spacing">
             My Technical Skills
           </p>
-          <MySkill
+          <Hm_MySkill
             skillName={"HTML5"}
             numYears={"2+ Years"}
             imagePath={"html.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"CSS3"}
             numYears={"2+ Years"}
             imagePath={"css.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"JavaScript"}
             numYears={"2+ Years"}
             imagePath={"js.svg"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"React"}
             numYears={"6+ Months"}
             imagePath={"react.png"}
           />
 
-          <MySkill
+          <Hm_MySkill
             skillName={"Java"}
             numYears={"4+ Years"}
             imagePath={"java.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"Python"}
             numYears={"4+ Years"}
             imagePath={"python.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"C Programming"}
             numYears={"3+ Years"}
             imagePath={"c.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"VB.NET"}
             numYears={"1+ Years"}
             imagePath={"vb.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"SQL"}
             numYears={"1+ Years"}
             imagePath={"mysql.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"GitHub/Git"}
             numYears={"1+ Years"}
             imagePath={"github.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"Microsoft Office"}
             numYears={"8+ Years"}
             imagePath={"office.png"}
           />
-          <MySkill
+          <Hm_MySkill
             skillName={"Skyrim"}
             numYears={"4+ Years"}
             imagePath={"skyrim.png"}
@@ -230,4 +230,4 @@ const MenuResume = () => {
   );
 };
 
-export default MenuResume;
+export default Hm_MenuResume;

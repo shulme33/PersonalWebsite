@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import MenuHeader from "./MenuHeader";
+import Hm_MenuHeader from "./Hm_MenuHeader";
 import "../../css/home-page/menubar.css";
 
 const MenuBar = ({ menuType, menuChanged }) => {
@@ -22,19 +22,19 @@ const MenuBar = ({ menuType, menuChanged }) => {
   return (
     <div className="menu-bar">
       <div className={menubarAreaClasses}>
-        <MenuHeader
+        <Hm_MenuHeader
           title="Resume"
           icon="resume.svg"
           clickFunction={menuChanged}
           currentMenu={menuType}
         />
-        <MenuHeader
+        <Hm_MenuHeader
           title="About"
           icon="about.svg"
           clickFunction={menuChanged}
           currentMenu={menuType}
         />
-        <MenuHeader
+        <Hm_MenuHeader
           title="Projects"
           icon="projects.svg"
           clickFunction={menuChanged}

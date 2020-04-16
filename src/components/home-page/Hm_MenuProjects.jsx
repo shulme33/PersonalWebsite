@@ -3,7 +3,7 @@ import "../../css/home-page/menu.css";
 import "../../css/home-page/menu-resume.css";
 import "../../css/home-page/menu-projects.css";
 
-const MenuProjects = () => {
+const Hm_MenuProjects = () => {
   return (
     <div className="menu">
       <div className="menu-area">
@@ -215,4 +215,4 @@ const MenuProjects = () => {
   );
 };
 
-export default MenuProjects;
+export default Hm_MenuProjects;

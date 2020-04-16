@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/home-page/footer.css";
 import "../../css/home-page/navbar.css";
 
-const Footer = () => {
+const Hm_Footer = () => {
   return (
     <div className="footer">
       <div className="navbar-logo-section">
@@ -13,4 +13,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Hm_Footer;

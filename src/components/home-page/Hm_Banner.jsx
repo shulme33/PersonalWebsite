@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/home-page/banner.css";
 import "../../App.css";
 
-const Banner = ({ showContactForm }) => {
+const Hm_Banner = ({ showContactForm }) => {
   React.useEffect(() => {
     console.log("Banner: " + typeof showContactForm);
   }, [showContactForm]);
@@ -36,4 +36,4 @@ const Banner = ({ showContactForm }) => {
   return <div className="banner">{determineBannerElement()}</div>;
 };
 
-export default Banner;
+export default Hm_Banner;

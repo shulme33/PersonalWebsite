@@ -1,10 +1,10 @@
 import React from "react";
-import MenuAbout from "./MenuAbout";
-import MenuProjects from "./MenuProjects";
-import MenuResume from "./MenuResume";
+import Hm_MenuAbout from "./Hm_MenuAbout";
+import Hm_MenuProjects from "./Hm_MenuProjects";
+import Hm_MenuResume from "./Hm_MenuResume";
 import "../../css/home-page/menu.css";
 
-const Menu = ({ menuType }) => {
+const Hm_Menu = ({ menuType }) => {
   React.useEffect(() => {
     console.log("Menu: " + menuType);
     //this.ListeningStateChangedEvent();
@@ -12,18 +12,18 @@ const Menu = ({ menuType }) => {
 
   function determineMenu() {
     if (menuType === "About") {
-      return <MenuAbout />;
+      return <Hm_MenuAbout />;
     }
     console.log("Switch: " + menuType.toUpperCase());
     switch (menuType.toUpperCase()) {
       case "ABOUT":
-        return <MenuAbout />;
+        return <Hm_MenuAbout />;
         break;
       case "PROJECTS":
-        return <MenuProjects />;
+        return <Hm_MenuProjects />;
         break;
       case "RESUME":
-        return <MenuResume />;
+        return <Hm_MenuResume />;
         break;
     }
   }
@@ -35,4 +35,4 @@ const Menu = ({ menuType }) => {
   //returnComponent();
 };
 
-export default Menu;
+export default Hm_Menu;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import AppHome from "./home-page/AppHome.jsx";
-import AppTracker from "./calorie-tracker/AppTracker.jsx";
-import AppContactMe from "./contact-me/AppContactMe.jsx";
+import Hm_App from "./home-page/Hm_App.jsx";
+import Hm_Tracker from "./calorie-tracker/Tr_App.jsx";
+import Ct_App from "./contact-me/Ct_App.jsx";
 
 class AppDecision extends Component {
   state = {
@@ -23,11 +23,11 @@ class AppDecision extends Component {
   render() {
     switch (this.state.app) {
       case "Home":
-        return <AppHome />;
+        return <Hm_App />;
       case "Tracker":
-        return <AppTracker />;
+        return <Hm_Tracker />;
       case "ContactMe":
-        return <AppContactMe />;
+        return <Ct_App />;
       default:
         throw new Error("No valid app found for app: " + this.state.app);
     }

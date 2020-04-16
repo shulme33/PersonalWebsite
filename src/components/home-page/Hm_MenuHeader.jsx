@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../../css/home-page/menu-header.css";
 
-const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
+const Hm_MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   const [iconClasses, changeIconClasses] = useState("icon-about");
   const [headerTitleClasses, changeHeaderTitleClasses] = useState(
     "main-header-title"
@@ -80,4 +80,4 @@ const MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   return variable;
 };
 
-export default MenuHeader;
+export default Hm_MenuHeader;
