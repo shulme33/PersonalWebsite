@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../css/home-page/menu.css";
 import "../../css/home-page/menu-resume.css";
 import "../../css/home-page/menu-projects.css";
 
-const Hm_MenuProjects = () => {
+const HmMenuProjects = () => {
   return (
     <div className="menu">
       <div className="menu-area">
@@ -215,4 +215,4 @@ const Hm_MenuProjects = () => {
   );
 };
 
-export default Hm_MenuProjects;
+export default HmMenuProjects;

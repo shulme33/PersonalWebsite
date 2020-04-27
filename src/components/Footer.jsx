@@ -1,8 +1,8 @@
 import React from "react";
-import "../../css/home-page/footer.css";
-import "../../css/home-page/navbar.css";
+import "../css/home-page/footer.css";
+import "../css/home-page/navbar.css";
 
-const Hm_Footer = () => {
+const Footer = () => {
   return (
     <div className="footer">
       <div className="navbar-logo-section">
@@ -13,4 +13,4 @@ const Hm_Footer = () => {
   );
 };
 
-export default Hm_Footer;
+export default Footer;

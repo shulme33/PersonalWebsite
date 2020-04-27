@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import Hm_App from "./home-page/Hm_App.jsx";
-import Hm_Tracker from "./calorie-tracker/Tr_App.jsx";
-import Ct_App from "./contact-me/Ct_App.jsx";
+import HmApp from "./home-page/HmApp.jsx";
+import TrApp from "./calorie-tracker/TrApp.jsx";
+import CtApp from "./contact-me/CtApp.jsx";
 
 class AppDecision extends Component {
+  //Props: application
   state = {
     app: "",
   };
@@ -14,20 +15,25 @@ class AppDecision extends Component {
     this.state.app = props.application;
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(prevProps) {
+    if (prevProps.application !== this.props.application) {
+      this.setState({ app: this.props.application });
+    }
+  }
+
+  componentDidMount() {
     //Props have changed
-    console.log("New Props");
-    this.setState({ app: nextProps.application });
+    this.setState({ app: this.props.application });
   }
 
   render() {
     switch (this.state.app) {
       case "Home":
-        return <Hm_App />;
+        return <HmApp />;
       case "Tracker":
-        return <Hm_Tracker />;
+        return <TrApp />;
       case "ContactMe":
-        return <Ct_App />;
+        return <CtApp />;
       default:
         throw new Error("No valid app found for app: " + this.state.app);
     }

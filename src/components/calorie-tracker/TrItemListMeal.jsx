@@ -3,8 +3,16 @@ import axios from "axios";
 import { simpleQuery } from "../database/simple-query.js";
 import "../../css/calorie-tracker/tr-item-list-meal.css";
 
-class ItemListMeal extends Component {
-  state = {};
+class TrItemListMeal extends Component {
+  //Props: mealName
+  state = {
+    mealName: "",
+  };
+
+  componentDidMount() {
+    this.setState({ mealName: this.props.mealName });
+    console.log(this.props.mealName);
+  }
 
   handleSubmit = (e) => {
     simpleQuery(e, axios, "select * from users");
@@ -21,4 +29,4 @@ class ItemListMeal extends Component {
   }
 }
 
-export default ItemListMeal;
+export default TrItemListMeal;

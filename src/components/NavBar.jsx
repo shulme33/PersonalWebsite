@@ -17,7 +17,6 @@ const NavBar = ({
 
   useEffect(() => {
     const smallScreen = window.innerWidth * 0.7 < 600;
-    console.log(window.innerWidth);
     changeLogoClasses(smallScreen);
     changeListClasses(smallScreen);
     changeListItemClasses(smallScreen);
@@ -35,9 +34,6 @@ const NavBar = ({
   );
 
   const changeLogoClasses = (blnSmallScreen) => {
-    const largeLogoClasses = "navbar-logo-section";
-    const smallLogoClasses = "navbar-logo-section-small";
-
     if (blnSmallScreen) {
       changeCurrentLogoClasses("navbar-logo-section-small");
     } else {

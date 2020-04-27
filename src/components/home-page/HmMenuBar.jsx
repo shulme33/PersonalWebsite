@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Hm_MenuHeader from "./Hm_MenuHeader";
+import HmMenuHeader from "./HmMenuHeader";
 import "../../css/home-page/menubar.css";
 
-const MenuBar = ({ menuType, menuChanged }) => {
+const HmMenuBar = ({ menuType, menuChanged }) => {
   const [menubarAreaClasses, changeMenuBarClasses] = useState("menu-bar-area");
 
   useEffect(() => {
@@ -22,19 +22,19 @@ const MenuBar = ({ menuType, menuChanged }) => {
   return (
     <div className="menu-bar">
       <div className={menubarAreaClasses}>
-        <Hm_MenuHeader
+        <HmMenuHeader
           title="Resume"
           icon="resume.svg"
           clickFunction={menuChanged}
           currentMenu={menuType}
         />
-        <Hm_MenuHeader
+        <HmMenuHeader
           title="About"
           icon="about.svg"
           clickFunction={menuChanged}
           currentMenu={menuType}
         />
-        <Hm_MenuHeader
+        <HmMenuHeader
           title="Projects"
           icon="projects.svg"
           clickFunction={menuChanged}
@@ -45,4 +45,4 @@ const MenuBar = ({ menuType, menuChanged }) => {
   );
 };
 
-export default MenuBar;
+export default HmMenuBar;

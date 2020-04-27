@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../css/home-page/my-skill.css";
 
 //style={{ backgroundImage: `url(${imagePath2})` }}
 
-const Hm_MySkill = ({ skillName, numYears, imagePath }) => {
+const HmMySkill = ({ skillName, numYears, imagePath }) => {
   return (
     <div className="skill">
       <div className="skill-logo">
@@ -21,4 +21,4 @@ const Hm_MySkill = ({ skillName, numYears, imagePath }) => {
   );
 };
 
-export default Hm_MySkill;
+export default HmMySkill;

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import NavBar from "./components/NavBar.jsx";
-import Hm_Footer from "./components/home-page/Hm_Footer.jsx";
+import Footer from "./components/Footer.jsx";
 import AppDecision from "./components/AppDecision";
 import "./App.css";
 import "./fonts/Karla.ttf";
@@ -43,7 +43,7 @@ const App = () => {
         }}
       />
       <AppDecision application={application} />
-      <Hm_Footer />
+      <Footer />
     </div>
   );
 };

@@ -1,11 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../css/home-page/menu.css";
 import "../../css/home-page/menu-resume.css";
 
-//<p className="about-half-title">Where I Grew Up</p>
-//<p className="about-half-text">Fort Benton, Montana</p>
-
-const Hm_MenuAbout = () => {
+const HmMenuAbout = () => {
   return (
     <div className="menu">
       <div className="menu-area">
@@ -21,7 +18,7 @@ const Hm_MenuAbout = () => {
             <div className="education-picture">
               <img
                 src={require("../../images/profile-picture-2.jpg")}
-                alt="Profile Picture"
+                alt="Profile"
               />
             </div>
             <div className="about-half-text">
@@ -65,7 +62,7 @@ const Hm_MenuAbout = () => {
             <div className="education-picture">
               <img
                 src={require("../../images/fort-benton.jpg")}
-                alt="Fort Benton Picture"
+                alt="Fort Benton"
               />
             </div>
             <p className="about-half-text">Fort Benton, Montana</p>
@@ -78,7 +75,7 @@ const Hm_MenuAbout = () => {
             <div className="education-picture">
               <img
                 src={require("../../images/warrior-movie.jpg")}
-                alt="Profile Picture"
+                alt="Profile"
               />
             </div>
             <p className="about-half-text">
@@ -104,4 +101,4 @@ const Hm_MenuAbout = () => {
   );
 };
 
-export default Hm_MenuAbout;
+export default HmMenuAbout;

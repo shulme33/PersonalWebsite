@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import NavBar from "../NavBar.jsx";
 
-class Ct_App extends Component {
+class CtApp extends Component {
   render() {
     return <h1>Contact Me App</h1>;
   }
 }
 
-export default Ct_App;
+export default CtApp;

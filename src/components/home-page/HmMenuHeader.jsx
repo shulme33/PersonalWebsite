@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../../css/home-page/menu-header.css";
 
-const Hm_MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
+const HmMenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
   const [iconClasses, changeIconClasses] = useState("icon-about");
   const [headerTitleClasses, changeHeaderTitleClasses] = useState(
     "main-header-title"
@@ -11,6 +11,7 @@ const Hm_MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
     determineIconClasses();
     determineHeaderTitleClasses();
     determineMenuClasses();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const clickEventHandler = () => {
@@ -50,6 +51,8 @@ const Hm_MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
       case "RESUME":
         classes += "icon-resume ";
         break;
+      default:
+        throw new Error("Title Not Recognized");
     }
 
     if (window.innerWidth * 0.7 < 600) {
@@ -68,7 +71,7 @@ const Hm_MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
 
   let menuClasses = determineMenuClasses();
 
-  const variable = (
+  return (
     <div className={menuClasses} onClick={clickEventHandler}>
       <div className="main-header-wrapper" data-container="body">
         <div className={iconClasses}></div>
@@ -76,8 +79,6 @@ const Hm_MenuHeader = ({ title, icon, clickFunction, currentMenu }) => {
       </div>
     </div>
   );
-
-  return variable;
 };
 
-export default Hm_MenuHeader;
+export default HmMenuHeader;
