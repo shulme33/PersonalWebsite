@@ -21,11 +21,7 @@ const Hm_Menu = ({ menuType }) => {
     }
   }
 
-  //const returnComponent = () => {
   return <React.Fragment>{determineMenu()}</React.Fragment>;
-  //};
-
-  //returnComponent();
 };
 
 export default Hm_Menu;
