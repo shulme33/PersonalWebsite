@@ -11,11 +11,10 @@ class TrItemListMeal extends Component {
 
   componentDidMount() {
     this.setState({ mealName: this.props.mealName });
-    console.log(this.props.mealName);
   }
 
   handleSubmit = (e) => {
-    simpleQuery(e, axios, "select * from users");
+    simpleQuery(axios, "select * from users");
   };
 
   render() {

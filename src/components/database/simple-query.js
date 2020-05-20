@@ -1,7 +1,7 @@
-export function simpleQuery(e, axios, query) {
+export function simpleQuery(axios, query) {
   //query - SQL text to be executed
   //Axios
-  e.preventDefault();
+  //e.preventDefault();
   console.log("Initial simple-query.js >> " + query);
   let formData = new FormData();
   formData.append("text", query);
