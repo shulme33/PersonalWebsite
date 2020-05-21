@@ -1,6 +1,6 @@
 ## Personal Website
 
-This project consists of a simple React client that is used as my personal website [samhulme.com](https://samhulme.com). To run this project locally, simply run this like any React app.
+This project consists of a simple React client that is used as my personal website [samhulme.com](http://samhulme.com). To run this project locally, simply run this like any React app.
 
 If cloning the repo, open the terminal and run:
 
