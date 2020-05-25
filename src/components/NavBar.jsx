@@ -4,7 +4,7 @@ import "../css/home-page/navbar.css";
 const NavBar = ({
   showContactForm,
   contactClicked,
-  trackerClicked,
+  myWorkClicked,
   homeClicked,
 }) => {
   const [logoClasses, changeCurrentLogoClasses] = useState(
@@ -65,22 +65,19 @@ const NavBar = ({
   return (
     <div className="navbar">
       <div className="navbar-area">
+        4
         <div className={logoClasses}>
           <div className="navbar-logo-icon"></div>
-          <p className="navbar-logo-text">samhulme.com</p>
+          <p className="navbar-logo-text" onClick={homeClicked}>
+            samhulme.com
+          </p>
         </div>
         <ul className={listClasses}>
           <li
             className={listItemClasses + " list-item-github"}
             onClick={homeClicked}
           >
-            Home
-          </li>
-          <li
-            className={listItemClasses + " list-item-github"}
-            onClick={trackerClicked}
-          >
-            Calorie Tracker
+            My Work
           </li>
           <li className={listItemClasses + " list-item-github"}>
             <a href={"https://github.com/shulme33"}>View My GitHub</a>

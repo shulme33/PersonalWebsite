@@ -34,6 +34,8 @@ class AppDecision extends Component {
         return <TrApp />;
       case "ContactMe":
         return <CtApp />;
+      case "MyWork":
+        return <CtApp />;
       default:
         throw new Error("No valid app found for app: " + this.state.app);
     }

@@ -26,7 +26,7 @@ const App = () => {
       5.) Footer
   */
 
-  const [application, changeApplication] = useState("Tracker"); //Home, Tracker, ContactMe
+  const [application, changeApplication] = useState("Home"); //Home, Tracker (Not Used), ContactMe, MyWork
 
   return (
     <div className="App">
@@ -35,8 +35,8 @@ const App = () => {
         contactClicked={() => {
           changeApplication("ContactMe");
         }}
-        trackerClicked={() => {
-          changeApplication("Tracker");
+        myWorkClicked={() => {
+          changeApplication("MyWork");
         }}
         homeClicked={() => {
           changeApplication("Home");
