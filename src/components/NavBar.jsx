@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
+//CSS Scripts
 import "../css/home-page/navbar.css";
+
+//Images
+import Logo from "../images/shield-with-logo.png";
 
 const NavBar = ({
   showContactForm,
   contactClicked,
   myWorkClicked,
-  homeClicked,
+  homeClicked
 }) => {
   const [logoClasses, changeCurrentLogoClasses] = useState(
     "navbar-logo-section"
@@ -61,16 +65,16 @@ const NavBar = ({
     console.log("Clicked");
     contactClicked();
   };
+  //<div className="navbar-logo-icon"></div>
+  //<p className="navbar-logo-text" onClick={homeClicked}>
+  //  samhulme.com
+  //</p>
 
   return (
     <div className="navbar">
       <div className="navbar-area">
-        4
         <div className={logoClasses}>
-          <div className="navbar-logo-icon"></div>
-          <p className="navbar-logo-text" onClick={homeClicked}>
-            samhulme.com
-          </p>
+          <img src={Logo} alt="Main Logo" className="navbar-logo" onClick={homeClicked}/>
         </div>
         <ul className={listClasses}>
           <li

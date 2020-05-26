@@ -19,7 +19,7 @@
 .navbar-logo-section {
   width: 200px;
   height: 50px;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   float: left;
@@ -42,6 +42,15 @@
   background-image: url("../../images/shield.svg");
   background-position: center center;
   background-size: cover;
+}
+
+.navbar-logo{
+  background-color: pink;
+  height: 100%;
+}
+
+.navbar-logo:hover{
+  cursor: pointer;
 }
 
 .navbar-logo-text {
