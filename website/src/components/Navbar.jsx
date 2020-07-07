@@ -3,7 +3,7 @@ import "../css/css-global/structure.css";
 
 /*
 
-    Navigation bar that stretches across the top of website
+    Navigation bar that stretches across the top of website 
 
 */
 
