@@ -1,0 +1,67 @@
+/*
+    Main Panel Sizes
+*/
+
+.mp {
+  /* Main Panel */
+  width: 100vw;
+}
+
+.mp-tiny {
+  /* Main panel super short */
+  height: 75px;
+}
+
+.mp-short {
+  /* Main panel short */
+  height: 200px;
+}
+
+.mp-medium {
+  /* Main panel middle */
+  height: 400px;
+}
+
+.mp-tall {
+  /* Main panel tall */
+  height: 600px;
+}
+
+/*
+    Inner Main Panel Containers
+      These areas will contain all content and will allow the content to scale depending on screen size
+*/
+
+.imp {
+  /* Inner Main Panel*/
+  height: 100%;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*
+    Main Panel Colors
+*/
+
+.mp-color-1 {
+  background-color: #d0ccd0; /* Light Grey */
+}
+
+.mp-color-2 {
+  background-color: #fbfcff; /* White (Almost) */
+}
+
+.mp-color-3 {
+  background-color: #605856; /* Dark Grey */
+}
+
+.mp-color-4 {
+  background-color: #1c6e8c; /* Aquamarine */
+}
+
+.mp-color-5 {
+  background-color: #274156; /* Dark Blue */
+}
