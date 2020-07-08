@@ -1,0 +1,31 @@
+.nb-container {
+}
+
+.nb-logo {
+  /* Website logo in the navbar */
+  width: 200px;
+  height: 100%;
+  background-color: green;
+  display: inline-flex;
+  float: left;
+}
+
+.nb-item-list {
+  /* List of items in navbar */
+  display: inline-flex;
+  float: right;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: top;
+  height: 100%;
+}
+
+.nb-item {
+  /* Each item in navbar */
+  display: inline-flex;
+  vertical-align: center;
+  align-items: center;
+  height: 100%;
+  padding: 0px 20px;
+}
