@@ -1,3 +1,22 @@
+/* CSS Variables */
+:root {
+  --color-1-light-grey: #d0ccd0;
+  --color-2-white: #fbfcff;
+  --color-3-dark-grey: #605856;
+  --color-4-aquamarine: #1c6e8c;
+  --color-5-dark-blue: #274156;
+
+  --window-size-small: 510px;
+}
+
+/* Logo */
+
+.logo {
+  background-image: url(/website-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*
     Main Panel Sizes
 */
@@ -22,14 +41,14 @@
   height: 400px;
 }
 
-.mp-tall {
-  /* Main panel tall */
+.mp-banner {
+  /* Main Panel Banner Height */
   height: 600px;
 }
 
 /*
     Inner Main Panel Containers
-      These areas will contain all content and will allow the content to scale depending on screen size
+    These areas will contain all content and will allow the content to scale depending on screen size
 */
 
 .imp {
@@ -42,26 +61,56 @@
   margin: 0 auto;
 }
 
+.imp-flex {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /*
     Main Panel Colors
 */
 
 .mp-color-1 {
-  background-color: #d0ccd0; /* Light Grey */
+  background-color: var(--color-1-light-grey); /* Light Grey */
 }
 
 .mp-color-2 {
-  background-color: #fbfcff; /* White (Almost) */
+  background-color: var(--color-2-white); /* White (Almost) */
 }
 
 .mp-color-3 {
-  background-color: #605856; /* Dark Grey */
+  background-color: var(--color-3-dark-grey); /* Dark Grey */
 }
 
 .mp-color-4 {
-  background-color: #1c6e8c; /* Aquamarine */
+  background-color: var(--color-4-aquamarine); /* Aquamarine */
 }
 
 .mp-color-5 {
-  background-color: #274156; /* Dark Blue */
+  background-color: var(--color-5-dark-blue); /* Dark Blue */
+}
+
+/*
+    Main Panel Text Colors
+*/
+
+.mp-txt-color-1 {
+  color: var(--color-1-light-grey); /* Light Grey */
+}
+
+.mp-txt-color-2 {
+  color: var(--color-2-white); /* White (Almost) */
+}
+
+.mp-txt-color-3 {
+  color: var(--color-3-dark-grey); /* Dark Grey */
+}
+
+.mp-txt-color-4 {
+  color: var(--color-4-aquamarine); /* Aquamarine */
+}
+
+.mp-txt-color-5 {
+  color: var(--color-5-dark-blue); /* Dark Blue */
 }

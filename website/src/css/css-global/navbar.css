@@ -5,7 +5,6 @@
   /* Website logo in the navbar */
   width: 200px;
   height: 100%;
-  background-color: green;
   display: inline-flex;
   float: left;
 }
@@ -19,13 +18,29 @@
   margin: 0px;
   vertical-align: top;
   height: 100%;
+  font-weight: bold;
 }
 
 .nb-item {
   /* Each item in navbar */
   display: inline-flex;
-  vertical-align: center;
   align-items: center;
   height: 100%;
   padding: 0px 20px;
+}
+
+/*
+    Media Queries - Used when screen size changes
+*/
+
+@media screen and (max-width: 510px) {
+  .nb-logo {
+    width: 100%;
+    float: none;
+  }
+
+  .nb-item-list,
+  .nb-item {
+    display: none;
+  }
 }

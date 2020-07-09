@@ -1,0 +1,72 @@
+.ban {
+  display: inline-flex;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.ban-img {
+  height: 400px;
+  background-image: url(/home-page/banner-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  border: 5px solid var(--color-1-light-grey);
+}
+
+.ban-img-txt {
+  height: auto;
+  margin-top: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ban-img-txt * {
+  margin: 0px;
+}
+
+.ban-img-txt h1 {
+  font-size: 50px;
+}
+
+/*
+    Media Queries - Used when screen size changes
+*/
+
+@media screen and (max-width: 510px) {
+  .mp-banner {
+    height: 520px;
+  }
+
+  .ban {
+    width: 80vw;
+  }
+
+  .ban-img {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .ban-img-txt {
+    height: 60px;
+  }
+
+  .ban-img-txt h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mp-banner {
+    height: 410px;
+  }
+
+  .ban-img-txt h1 {
+    font-size: 25px;
+  }
+
+  .ban-img-txt h4 {
+    font-size: 12px;
+  }
+}

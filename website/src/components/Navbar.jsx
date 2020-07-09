@@ -12,8 +12,8 @@ function Navbar() {
   return (
     <div className="mp mp-tiny mp-color-5">
       <div className="imp nb-container">
-        <div className="nb-logo">Logo</div>
-        <ul className="nb-item-list">
+        <div className="logo nb-logo"></div>
+        <ul className="nb-item-list mp-txt-color-2">
           <li className="nb-item">Home</li>
           <li className="nb-item">Projects</li>
           <li className="nb-item">Resume</li>
