@@ -1,7 +1,10 @@
 import React from "react";
+import WelcomeHighlight from "./WelcomeHighlight.jsx";
 import "../../css/css-global/structure.css";
 import "../../css/home-page/home-page.css";
 import "../../css/home-page/welcome.css";
+import Button from "react-bootstrap/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 /*
 
@@ -11,7 +14,7 @@ import "../../css/home-page/welcome.css";
 
 function Welcome() {
   return (
-    <div className="mp mp-medium mp-color-4">
+    <div className="mp mp-fit mp-color-4">
       <div className="imp imp-flex">
         <div className="wel wel-msg">
           <h3 className="hm-section-hdr mp-txt-color-2">Welcome!</h3>
@@ -24,9 +27,21 @@ function Welcome() {
           </span>
         </div>
         <div className="wel wel-highlights">
-          <div className="wel-highlight-item"></div>
-          <div className="wel-highlight-item"></div>
-          <div className="wel-highlight-item"></div>
+          <WelcomeHighlight
+            title="Resume"
+            description="Take a look at my technical skills, work history, and education."
+            buttonText="Take a Look"
+          />
+          <WelcomeHighlight
+            title="Projects"
+            description="Explore my project history and GitHub repositories."
+            buttonText="Explore"
+          />
+          <WelcomeHighlight
+            title="About Me"
+            description="Take a looksie at my background and interests."
+            buttonText="Say Hi"
+          />
         </div>
       </div>
     </div>

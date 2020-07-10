@@ -26,6 +26,10 @@
   width: 100vw;
 }
 
+.mp-fit {
+  height: auto;
+}
+
 .mp-tiny {
   /* Main panel super short */
   height: 75px;
@@ -33,17 +37,20 @@
 
 .mp-short {
   /* Main panel short */
-  height: 200px;
+  height: auto;
+  min-height: 200px;
 }
 
 .mp-medium {
   /* Main panel middle */
-  height: 400px;
+  height: auto;
+  min-height: 400px;
 }
 
 .mp-banner {
   /* Main Panel Banner Height */
-  height: 600px;
+  height: auto;
+  min-height: 600px;
 }
 
 /*
