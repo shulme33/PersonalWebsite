@@ -10,8 +10,8 @@ import "../../css/home-page/banner.css";
 
 function Banner() {
   return (
-    <div className="mp mp-banner mp-color-2">
-      <div className="imp imp-flex">
+    <div className="mp mp-fit mp-color-2">
+      <div className="imp imp-flex ban-imp">
         <div className="ban ban-img"></div>
         <div className="ban ban-img-txt">
           <h1 className="mp-txt-color-5">Samuel Hulme</h1>

@@ -61,11 +61,11 @@
 .imp {
   /* Inner Main Panel*/
   height: 100%;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
 }
 
 .imp-flex {

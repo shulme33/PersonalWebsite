@@ -1,24 +1,30 @@
 .wel {
+  /* Each main item in the welcome section */
   display: inline-flex;
-  margin: 0 auto;
-  padding: 20px 0px;
+  margin: 0px auto;
+  padding: 0px 0px;
 }
 
 .wel-msg {
+  /* Main message in welcom section */
   width: 100%;
   height: auto;
   flex-direction: column;
   text-align: left;
+  margin: 20px 0;
 }
 
 .wel-highlights {
+  /* Container for welcome section  */
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
+  margin: 0 0 20px 0;
 }
 
 .wel-highlight-item {
+  /* Individual hightlight item */
   display: flex;
   flex-direction: column;
   width: 220px;
@@ -29,16 +35,26 @@
 }
 
 .wel-highlight-picture {
-  width: 80%;
-  padding-bottom: 80%;
+  /* Small picture inside highlight item */
+  width: 60%;
+  padding-bottom: 60%;
   margin: 0 auto;
   border-radius: 50%;
 }
 
 .wel-highlight-title {
+  /* Title of highlight item */
   margin-top: 10px;
 }
 
 .wel-highlight-txt {
+  /* Text inside hightlight item */
   margin-top: 5px;
+}
+
+.wel-highlight-btn {
+  /* Positional overrides for bootstrap button */
+  align-self: center !important;
+  width: 130px !important;
+  margin: auto 0 0 0 !important;
 }

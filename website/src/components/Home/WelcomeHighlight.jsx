@@ -18,7 +18,10 @@ function WelcomeHighlight({ title, description, buttonText }) {
       <div className="wel-highlight-picture mp-color-1"></div>
       <h5 className="wel-highlight-title mp-txt-color-2">{title}</h5>
       <p className="wel-highlight-txt mp-txt-color-5">{description}</p>
-      <Button variant="outline-dark" className="ovrd-btn">
+      <Button
+        variant="outline-dark"
+        className="ovrd-btn-clear wel-highlight-btn"
+      >
         {buttonText}
       </Button>
     </div>

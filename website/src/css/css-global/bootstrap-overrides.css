@@ -1,12 +1,8 @@
-.ovrd-btn {
-  align-self: center !important;
-  width: 130px !important;
-  margin: auto 0 0 0 !important;
+.ovrd-btn-clear {
   border-color: var(--color-5-dark-blue) !important;
-  color: var(--color-1-light-grey) !important;
+  color: var(--color-2-white) !important;
 }
 
-.ovrd-btn:hover {
-  background-color: red !important;
-  color: green !important;
+.ovrd-btn-clear:hover {
+  background-color: var(--color-5-dark-blue) !important;
 }
