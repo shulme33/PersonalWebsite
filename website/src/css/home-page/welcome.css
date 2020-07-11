@@ -1,3 +1,7 @@
+.wel-imp {
+  padding: 20px;
+}
+
 .wel {
   /* Each main item in the welcome section */
   display: inline-flex;
@@ -11,7 +15,6 @@
   height: auto;
   flex-direction: column;
   text-align: left;
-  margin: 20px 0;
 }
 
 .wel-highlights {
@@ -20,7 +23,7 @@
   height: auto;
   display: flex;
   justify-content: center;
-  margin: 0 0 20px 0;
+  margin-top: 20px;
 }
 
 .wel-highlight-item {
@@ -29,7 +32,6 @@
   flex-direction: column;
   width: 220px;
   height: auto;
-  border: 1px solid grey;
   margin: 0px 10px;
   padding: 0px;
 }
@@ -39,7 +41,26 @@
   width: 60%;
   padding-bottom: 60%;
   margin: 0 auto;
+  border: 2px solid var(--color-1-light-grey);
   border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.resume-pic {
+  /* Picture for the Resume highlight */
+  background-image: url(/home-page/desk-setup-1.jpg);
+}
+
+.projects-pic {
+  /* Picture for the Projects highlight */
+  background-image: url(/home-page/laptop-1.jpg);
+}
+
+.about-me-pic {
+  /* Picture for the About Me section */
+  background-image: url(/home-page/scenery-1.jpg);
 }
 
 .wel-highlight-title {

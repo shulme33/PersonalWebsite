@@ -15,7 +15,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Welcome() {
   return (
     <div className="mp mp-fit mp-color-4">
-      <div className="imp imp-flex">
+      <div className="imp imp-flex wel-imp">
         <div className="wel wel-msg">
           <h3 className="hm-section-hdr mp-txt-color-2">Welcome!</h3>
           <span className="hm-section-txt mp-txt-color-2">
@@ -31,16 +31,19 @@ function Welcome() {
             title="Resume"
             description="Take a look at my technical skills, work history, and education."
             buttonText="Take a Look"
+            picture="resume-pic"
           />
           <WelcomeHighlight
             title="Projects"
             description="Explore my project history and GitHub repositories."
             buttonText="Explore"
+            picture="projects-pic"
           />
           <WelcomeHighlight
             title="About Me"
             description="Take a looksie at my background and interests."
             buttonText="Say Hi"
+            picture="about-me-pic"
           />
         </div>
       </div>

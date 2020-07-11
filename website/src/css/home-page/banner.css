@@ -1,3 +1,7 @@
+.ban-imp {
+  padding: 20px 0;
+}
+
 .ban {
   display: inline-flex;
   margin: 0 auto;
@@ -10,9 +14,9 @@
   background-image: url(/home-page/banner-1.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   border-radius: 50%;
-  /*  border: 5px solid var(--color-1-light-grey);  */
+  border: 5px solid var(--color-1-light-grey);
 }
 
 .ban-img-txt {
@@ -23,6 +27,7 @@
 }
 
 .ban-img-txt * {
+  height: auto;
   margin: 0px;
 }
 
@@ -42,10 +47,6 @@
   .ban-img {
     width: 70vw;
     height: 70vw;
-  }
-
-  .ban-img-txt {
-    height: 60px;
   }
 
   .ban-img-txt h1 {

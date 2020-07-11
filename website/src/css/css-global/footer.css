@@ -1,0 +1,26 @@
+.foot-imp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-social-icon {
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon-git {
+  background-image: url(/icon-github.png);
+}
+
+.icon-insta {
+  background-image: url(/icon-instagram.png);
+}
+
+.icon-fb {
+  background-image: url(/icon-facebook.png);
+}

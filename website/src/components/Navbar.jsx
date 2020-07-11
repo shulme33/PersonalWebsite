@@ -14,9 +14,9 @@ function Navbar() {
       <div className="imp nb-container">
         <div className="logo nb-logo"></div>
         <ul className="nb-item-list mp-txt-color-2">
-          <li className="nb-item">Home</li>
-          <li className="nb-item">Projects</li>
-          <li className="nb-item">Resume</li>
+          <li className="nb-item anim-upscale">Home</li>
+          <li className="nb-item anim-upscale">Projects</li>
+          <li className="nb-item anim-upscale">Resume</li>
         </ul>
       </div>
     </div>
