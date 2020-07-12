@@ -1,10 +1,20 @@
 .foot-imp {
+  /* Footer inner main panel */
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  min-height: 75px;
+}
+
+.foot-imp a {
+  /* The <a> tag adds some "padding" at the bottom for the text. This removes it. */
+  font-size: 0px;
 }
 
 .foot-social-icon {
+  /* List of social media icons */
+  display: inline-flex;
   width: 35px;
   height: 35px;
   margin: 0 10px;
@@ -14,13 +24,16 @@
 }
 
 .icon-git {
+  /* Clickable GitHub logo */
   background-image: url(/icon-github.png);
 }
 
 .icon-insta {
+  /* Clickable Instagram logo */
   background-image: url(/icon-instagram.png);
 }
 
 .icon-fb {
+  /* Clickable Facebook logo */
   background-image: url(/icon-facebook.png);
 }

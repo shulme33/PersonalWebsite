@@ -1,12 +1,15 @@
 .ban-imp {
+  /* Banner section inner main panel */
   display: flex;
   padding: 20px 0;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  min-height: 300px;
 }
 
 .ban-img {
+  /* Profile picture in banner section */
   max-height: 240px;
   max-width: 240px;
   width: 70vw;
@@ -21,7 +24,8 @@
 }
 
 .ban-img-txt {
-  height: 300px;
+  /* Container for banner text */
+  height: auto;
   margin-top: 0px;
   display: inline-flex;
   justify-content: center;
@@ -30,11 +34,12 @@
 }
 
 .ban-img-txt * {
-  height: auto;
+  /* Each piece of individual text on banner section */
   margin: 0px;
 }
 
 .ban-img-txt h1 {
+  /* Make my name a bit bigger */
   font-size: 50px;
 }
 
@@ -44,25 +49,29 @@
 
 @media screen and (max-width: 510px) and (min-width: 351px) {
   .ban-imp {
+    /* When screen gets small, put text under profile picture */
     flex-direction: column;
   }
 
   .ban-img-txt {
-    height: auto;
+    /* Add spacing between banner picture and text */
     margin-top: 20px;
   }
 
   .ban-img-txt h1 {
+    /* Make my name a bit smaller for smaller screens */
     font-size: 35px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .ban-img-txt h1 {
+    /* Make banner text even smaller */
     font-size: 25px;
   }
 
   .ban-img-txt h4 {
+    /* Make banner text even smaller */
     font-size: 12px;
   }
 }

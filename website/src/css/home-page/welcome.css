@@ -86,16 +86,19 @@
 */
 @media screen and (max-width: 510px) {
   .wel-highlight-item {
+    /* Adjust spacing of heighlights and widths when the screen gets small */
     margin: 20px 0px;
     width: 100%;
     max-width: 100%;
   }
 
   .wel-highlights {
+    /* For small screens, stack highlights vertically */
     flex-direction: column;
   }
 
   .wel-highlight-btm-border::after {
+    /* Pseudo-element to create line between vertically stacked highlight items. */
     content: "";
     display: flex;
     margin: 40px auto 0 auto;

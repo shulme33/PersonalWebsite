@@ -1,3 +1,7 @@
+/*    
+    Bootstrap button color overrides 
+*/
+
 .ovrd-btn-clear {
   border-color: var(--color-5-dark-blue) !important;
   color: var(--color-2-white) !important;

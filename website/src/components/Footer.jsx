@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/css-global/structure.css";
 import "../css/css-global/footer.css";
+import "../css/css-global/navbar.css";
 import "../css/css-global/animations.css";
 
 /*
@@ -11,7 +12,7 @@ import "../css/css-global/animations.css";
 
 function Footer() {
   return (
-    <div className="mp mp-tiny mp-color-5">
+    <div className="mp mp-fit mp-color-5">
       <div className="imp foot-imp">
         <a href="https://www.instagram.com/shulme33/">
           <div className="foot-social-icon icon-insta anim-upscale"></div>
@@ -28,3 +29,20 @@ function Footer() {
 }
 
 export default Footer;
+
+/*
+<div className="mp mp-tiny mp-color-5">
+      <div className="imp foot-imp">
+        <a href="https://www.instagram.com/shulme33/">
+          <div className="foot-social-icon icon-insta anim-upscale"></div>
+        </a>
+        <a href="https://www.facebook.com/sam.hulme.7">
+          <div className="foot-social-icon icon-fb anim-upscale"></div>
+        </a>
+        <a href="https://github.com/shulme33">
+          <div className="foot-social-icon icon-git anim-upscale"></div>
+        </a>
+      </div>
+    </div>
+
+*/

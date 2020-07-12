@@ -9,7 +9,9 @@
   --window-size-small: 510px;
 }
 
-/* Logo */
+/* 
+    Logo 
+*/
 
 .logo {
   background-image: url(/website-logo.png);
@@ -32,7 +34,8 @@
 
 .mp-tiny {
   /* Main panel super short */
-  height: 75px;
+  height: auto;
+  min-height: 75px;
 }
 
 .mp-short {
@@ -64,10 +67,6 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  /*
-  border-left: 1px solid red;
-  border-right: 1px solid red;
-  */
 }
 
 /*
