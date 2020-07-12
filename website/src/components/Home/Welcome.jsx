@@ -32,12 +32,14 @@ function Welcome() {
             description="Take a look at my technical skills, work history, and education."
             buttonText="Take a Look"
             picture="resume-pic"
+            mobileBorderClass="wel-highlight-btm-border"
           />
           <WelcomeHighlight
             title="Projects"
             description="Explore my project history and GitHub repositories."
             buttonText="Explore"
             picture="projects-pic"
+            mobileBorderClass="wel-highlight-btm-border"
           />
           <WelcomeHighlight
             title="About Me"

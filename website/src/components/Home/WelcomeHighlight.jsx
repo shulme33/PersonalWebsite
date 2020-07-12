@@ -12,9 +12,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 */
 
-function WelcomeHighlight({ title, description, buttonText, picture }) {
+function WelcomeHighlight({
+  title,
+  description,
+  buttonText,
+  picture,
+  mobileBorderClass,
+}) {
   return (
-    <div className="wel-highlight-item">
+    <div className={"wel-highlight-item " + mobileBorderClass}>
       <div className={"wel-highlight-picture mp-color-1 " + picture}></div>
       <h5 className="wel-highlight-title mp-txt-color-2">{title}</h5>
       <p className="wel-highlight-txt mp-txt-color-5">{description}</p>

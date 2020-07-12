@@ -12,8 +12,8 @@ function Banner() {
   return (
     <div className="mp mp-fit mp-color-2">
       <div className="imp imp-flex ban-imp">
-        <div className="ban ban-img"></div>
-        <div className="ban ban-img-txt">
+        <div className="ban-img"></div>
+        <div className="ban-img-txt">
           <h1 className="mp-txt-color-5">Samuel Hulme</h1>
           <h4 className="mp-txt-color-3">Software Developer</h4>
           <h4 className="mp-txt-color-3">Helena, MT</h4>

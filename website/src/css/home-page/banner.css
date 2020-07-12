@@ -1,17 +1,14 @@
 .ban-imp {
+  display: flex;
   padding: 20px 0;
-}
-
-.ban {
-  display: inline-flex;
-  margin: 0 auto;
-  max-width: 400px;
-  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .ban-img {
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 240px;
+  max-width: 240px;
   width: 70vw;
   height: 70vw;
   background-image: url(/home-page/banner-1.png);
@@ -20,13 +17,16 @@
   background-size: cover;
   border-radius: 50%;
   border: 5px solid var(--color-1-light-grey);
+  margin: 0 auto;
 }
 
 .ban-img-txt {
-  height: auto;
+  height: 300px;
   margin-top: 0px;
+  display: inline-flex;
   justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .ban-img-txt * {
@@ -43,13 +43,13 @@
 */
 
 @media screen and (max-width: 510px) and (min-width: 351px) {
-  .ban {
-    width: 80vw;
+  .ban-imp {
+    flex-direction: column;
   }
 
-  .ban-img {
-    width: 70vw;
-    height: 70vw;
+  .ban-img-txt {
+    height: auto;
+    margin-top: 20px;
   }
 
   .ban-img-txt h1 {
