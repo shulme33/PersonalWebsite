@@ -10,7 +10,10 @@
 }
 
 .ban-img {
-  height: 400px;
+  max-height: 400px;
+  max-width: 400px;
+  width: 70vw;
+  height: 70vw;
   background-image: url(/home-page/banner-1.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -39,7 +42,7 @@
     Media Queries - Used when screen size changes
 */
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 510px) and (min-width: 351px) {
   .ban {
     width: 80vw;
   }

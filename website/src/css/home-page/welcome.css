@@ -28,9 +28,10 @@
 
 .wel-highlight-item {
   /* Individual hightlight item */
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  width: 220px;
+  width: 30%;
+  max-width: 220px;
   height: auto;
   margin: 0px 10px;
   padding: 0px;
@@ -39,7 +40,7 @@
 .wel-highlight-picture {
   /* Small picture inside highlight item */
   width: 60%;
-  padding-bottom: 60%;
+  padding: 30%;
   margin: 0 auto;
   border: 2px solid var(--color-1-light-grey);
   border-radius: 50%;
@@ -79,3 +80,27 @@
   width: 130px !important;
   margin: auto 0 0 0 !important;
 }
+
+/*
+    Media queries for changing screen sizes 
+*/
+@media screen and (max-width: 510px) {
+  .wel-highlight-item {
+    padding: 20px 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .wel-highlights {
+    flex-direction: column;
+  }
+}
+
+/*
+
+@media screen and (max-width: 510px) {
+  .wel-highlight-item {
+  }
+}
+
+*/
