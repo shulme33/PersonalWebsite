@@ -9,4 +9,5 @@
 
 .ovrd-btn-clear:hover {
   background-color: var(--color-5-dark-blue) !important;
+  color: var(--color-2-white) !important;
 }
