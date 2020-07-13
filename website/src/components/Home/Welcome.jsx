@@ -1,5 +1,5 @@
 import React from "react";
-import WelcomeHighlight from "./WelcomeHighlight.jsx";
+import Highlight from "./Highlight.jsx";
 import "../../css/css-global/structure.css";
 import "../../css/home-page/home-page.css";
 import "../../css/home-page/welcome.css";
@@ -25,28 +25,6 @@ function Welcome() {
             aliquid intellegebat, et stet argumentum omittantur per. Et numquam
             bonorum ius.
           </span>
-        </div>
-        <div className="wel wel-highlights">
-          <WelcomeHighlight
-            title="Resume"
-            description="Take a look at my technical skills, work history, and education."
-            buttonText="Take a Look"
-            picture="resume-pic"
-            mobileBorderClass="wel-highlight-btm-border"
-          />
-          <WelcomeHighlight
-            title="Projects"
-            description="Explore my project history and GitHub repositories."
-            buttonText="Explore"
-            picture="projects-pic"
-            mobileBorderClass="wel-highlight-btm-border"
-          />
-          <WelcomeHighlight
-            title="About Me"
-            description="Take a looksie at my background and interests."
-            buttonText="Say Hi"
-            picture="about-me-pic"
-          />
         </div>
       </div>
     </div>

@@ -1,9 +1,12 @@
+// Components
 import React from "react";
+import Button from "react-bootstrap/Button";
+
+// CSS Scripts
 import "../../css/css-global/structure.css";
 import "../../css/css-global/bootstrap-overrides.css";
 import "../../css/home-page/home-page.css";
-import "../../css/home-page/welcome.css";
-import Button from "react-bootstrap/Button";
+import "../../css/home-page/highlight.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 /*
@@ -20,14 +23,11 @@ function WelcomeHighlight({
   mobileBorderClass,
 }) {
   return (
-    <div className={"wel-highlight-item " + mobileBorderClass}>
-      <div className={"wel-highlight-picture mp-color-1 " + picture}></div>
-      <h5 className="wel-highlight-title mp-txt-color-2">{title}</h5>
-      <p className="wel-highlight-txt mp-txt-color-5">{description}</p>
-      <Button
-        variant="outline-dark"
-        className="ovrd-btn-clear wel-highlight-btn"
-      >
+    <div className={"high-item " + mobileBorderClass}>
+      <div className={"high-picture mp-color-1 " + picture}></div>
+      <h5 className="high-title mp-txt-color-5">{title}</h5>
+      <p className="high-txt mp-txt-color-4">{description}</p>
+      <Button variant="outline-dark" className="ovrd-btn-clear high-btn">
         {buttonText}
       </Button>
     </div>

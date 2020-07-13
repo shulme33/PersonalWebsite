@@ -4,7 +4,7 @@
 
 .ovrd-btn-clear {
   border-color: var(--color-5-dark-blue) !important;
-  color: var(--color-2-white) !important;
+  color: var(--color-5-dark-blue) !important;
 }
 
 .ovrd-btn-clear:hover {

@@ -47,7 +47,7 @@
     Media Queries - Used when screen size changes
 */
 
-@media screen and (max-width: 510px) and (min-width: 351px) {
+@media screen and (max-width: 510px) {
   .ban-imp {
     /* When screen gets small, put text under profile picture */
     flex-direction: column;

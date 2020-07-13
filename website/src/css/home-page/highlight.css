@@ -1,0 +1,103 @@
+.high-imp {
+  padding: 40px 20px;
+}
+
+.highlights-group {
+  /* Container for welcome section  */
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+
+.high-item {
+  /* Individual hightlight item */
+  display: inline-flex;
+  flex-direction: column;
+  width: 30%;
+  max-width: 220px;
+  height: auto;
+  margin: 0px 10px;
+  padding: 0px;
+}
+
+.high-picture {
+  /* Small picture inside highlight item */
+  width: 60%;
+  padding: 30%;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.resume-pic {
+  /* Picture for the Resume highlight */
+  background-image: url(/home-page/desk-setup-1.jpg);
+}
+
+.projects-pic {
+  /* Picture for the Projects highlight */
+  background-image: url(/home-page/colaborate.jpg);
+}
+
+.about-me-pic {
+  /* Picture for the About Me section */
+  background-image: url(/home-page/scenery-1.jpg);
+}
+
+.high-title {
+  /* Title of highlight item */
+  margin-top: 20px;
+}
+
+.high-txt {
+  /* Text inside hightlight item */
+  margin-top: 5px;
+}
+
+.high-btn {
+  /* Positional overrides for bootstrap button */
+  align-self: center !important;
+  width: 130px !important;
+  margin: auto 0 0 0 !important;
+}
+
+/*
+    Media queries for changing screen sizes 
+*/
+
+@media screen and (max-width: 510px) {
+  .highlights-group {
+    /* For small screens, stack highlights vertically */
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+  }
+
+  .high-item {
+    /* Adjust spacing of heighlights and widths when the screen gets small */
+    margin: 20px 0px;
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .high-picture {
+    /* Small picture inside highlight item */
+    width: 30%;
+    padding: 15%;
+  }
+
+  .high-btm-border::after {
+    /* Pseudo-element to create line between vertically stacked highlight items. */
+    content: "";
+    display: flex;
+    margin: 40px auto 0 auto;
+    width: 85%;
+    height: 0px;
+    border: 1px solid var(--color-5-dark-blue);
+  }
+}
