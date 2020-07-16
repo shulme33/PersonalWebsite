@@ -6,12 +6,12 @@ function SingleSkill({ skillName, skillLevel }) {
     var starObject = [];
     var i = 0;
     for (i; i < skillLevel; i++) {
-      var tempObject = <div className="star-filled">1</div>;
+      var tempObject = <div className="star-filled"></div>;
       starObject.push(tempObject);
     }
 
     for (i; i < 5; i++) {
-      var tempObject = <div className="star-unfilled">1</div>;
+      var tempObject = <div className="star-unfilled"></div>;
       starObject.push(tempObject);
     }
 

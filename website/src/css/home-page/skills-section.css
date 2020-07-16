@@ -1,13 +1,19 @@
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .single-skill {
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   height: 40px;
-  background-color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  margin: 10px 0;
+  margin: 0;
 }
 
 .single-skill p {
@@ -17,20 +23,25 @@
 .skill-stars {
   width: 150px;
   height: 100%;
-  background-color: green;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.star-filled {
-  width: 30px;
-  height: 30px;
-  background-color: blue;
-}
-
+.star-filled,
 .star-unfilled {
   width: 30px;
   height: 30px;
-  background-color: orange;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 5px;
+}
+
+.star-filled {
+  background-image: url(/star-filled.png);
+}
+
+.star-unfilled {
+  background-image: url(/star-not-filled.png);
 }
