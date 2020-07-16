@@ -1,0 +1,11 @@
+.section-title {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 40px 0;
+}
+
+.main-title,
+.sub-title {
+  margin: 0px;
+  padding: 0px;
+}

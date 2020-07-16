@@ -1,0 +1,44 @@
+.job-item {
+  width: 65%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+}
+
+.job-picture {
+  width: 30%;
+  height: 30%;
+  padding-bottom: 30%;
+  align-items: flex-start;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+.job-text {
+  width: 70%;
+  height: 100%;
+  text-align: left;
+  padding: 0 0 0 40px;
+}
+
+.job-fast-llc {
+  background-image: url(/home-page/fast.png);
+}
+
+.job-msu {
+  background-image: url(/home-page/bobcat.png);
+}
+
+.job-company {
+  font-weight: bold;
+  margin: 0;
+}
+
+.job-title {
+  margin: 0;
+}
+
+.job-location {
+  margin: 0 0 20px 0;
+}

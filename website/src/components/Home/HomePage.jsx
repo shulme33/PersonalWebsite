@@ -19,7 +19,6 @@ function HomePage() {
     <div className="home-page">
       <Banner />
       <Welcome />
-      <HighlightSection />
       <WorkExSection />
       <SkillsSection />
       <ProjectsSection />
