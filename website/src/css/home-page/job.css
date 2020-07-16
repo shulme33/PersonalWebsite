@@ -1,8 +1,10 @@
 .job-item {
-  width: 65%;
+  width: 100%;
+  max-width: 570px;
   height: auto;
   margin: 20px auto;
   display: flex;
+  flex-direction: row;
 }
 
 .job-picture {
@@ -41,4 +43,30 @@
 
 .job-location {
   margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 510px) {
+  .job-item {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .job-picture {
+    width: 100%;
+    margin: 20px 0 40px 0;
+  }
+
+  .job-text {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .job-item::after {
+    content: "";
+    width: 90%;
+    height: 1px;
+    border-bottom: 1px solid var(--color-4-aquamarine);
+    margin: 40px auto 0 auto;
+  }
 }

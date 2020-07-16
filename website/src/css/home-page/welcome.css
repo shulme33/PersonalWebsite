@@ -1,5 +1,5 @@
 .wel-imp {
-  padding: 40px 20px;
+  padding: 60px;
 }
 
 .wel {
@@ -12,11 +12,10 @@
 .wel-section-hdr {
   width: 100%;
   height: auto;
-  margin: 20px 0;
-  background-color: green;
+  margin: 0 0 20px 0;
 }
 
-.wel-section-text {
+.wel-section-txt {
   margin: 0px;
 }
 
@@ -26,4 +25,10 @@
   height: auto;
   flex-direction: column;
   text-align: center;
+}
+
+@media screen and (max-width: 510px) {
+  .wel-imp {
+    padding: 60px 20px;
+  }
 }

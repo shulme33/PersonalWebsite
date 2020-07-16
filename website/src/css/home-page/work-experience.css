@@ -1,5 +1,11 @@
 .work-imp {
-  padding: 40px 20px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 510px) {
+  .work-imp {
+    padding: 60px 20px;
+  }
 }
