@@ -17,14 +17,14 @@ function Welcome() {
     <div className="mp mp-fit mp-color-4">
       <div className="imp imp-flex wel-imp">
         <div className="wel wel-msg">
-          <h3 className="hm-section-hdr mp-txt-color-2">Welcome!</h3>
-          <span className="hm-section-txt mp-txt-color-2">
-            Lorem ipsum dolor sit amet, nec alienum cotidieque ex. Sit no possit
-            expetendis, mei ne iudico homero gubergren. Possim iisque conceptam
-            cu eum. Et pri vivendo lobortis, dolorum contentiones vim et. Pri ea
-            aliquid intellegebat, et stet argumentum omittantur per. Et numquam
-            bonorum ius.
-          </span>
+          <h3 className="wel-section-hdr mp-txt-color-2">Welcome!</h3>
+          <p className="wel-section-txt mp-txt-color-2">
+            This is the first long line of the text that will display here! It
+            can honestly be pretty long.
+          </p>
+          <p className="wel-section-txt mp-txt-color-2">
+            There will also be this second shorter line.
+          </p>
         </div>
       </div>
     </div>

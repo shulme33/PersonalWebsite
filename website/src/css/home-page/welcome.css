@@ -9,10 +9,21 @@
   padding: 0px 0px;
 }
 
+.wel-section-hdr {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  background-color: green;
+}
+
+.wel-section-text {
+  margin: 0px;
+}
+
 .wel-msg {
   /* Main message in welcom section */
   width: 100%;
   height: auto;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
 }
