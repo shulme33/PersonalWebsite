@@ -1,41 +1,37 @@
 .ban-imp {
   /* Banner section inner main panel */
+  width: 100%;
+  height: 100%;
   display: flex;
-  padding: 20px 0;
+  padding: 0;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-height: 300px;
 }
 
 .ban-img {
   /* Profile picture in banner section */
-  max-height: 240px;
-  max-width: 240px;
-  width: 70vw;
-  height: 70vw;
-  background-image: url(/home-page/banner-1.png);
+  width: 50vw;
+  height: 80vh;
+  background-image: url(/home-page/me-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 50%;
-  border: 5px solid var(--color-1-light-grey);
-  margin: 0 auto;
 }
 
 .ban-img-txt {
   /* Container for banner text */
+  width: 50vw;
   height: auto;
   margin-top: 0px;
   display: inline-flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0 auto;
+  text-align: left;
+  padding: 0 0 0 8%;
 }
 
 .ban-img-txt * {
   /* Each piece of individual text on banner section */
-  margin: 0px;
+  margin: 10px;
 }
 
 .ban-img-txt h1 {

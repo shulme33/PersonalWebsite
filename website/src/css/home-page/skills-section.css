@@ -1,0 +1,36 @@
+.single-skill {
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+
+.single-skill p {
+  margin: 0px;
+}
+
+.skill-stars {
+  width: 150px;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-filled {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+}
+
+.star-unfilled {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+}

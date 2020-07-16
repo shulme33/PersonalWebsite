@@ -1,3 +1,11 @@
+.nb {
+  position: relative;
+  z-index: 10;
+  -moz-box-shadow: 0px 0px 50px 10px #000;
+  -webkit-box-shadow: 0px 0px 50px 10px #000; /* x-move, y-move, gradient-harshness*/
+  box-shadow: 0px 0px 50px 10px #000;
+}
+
 .nb-container {
   /* Generic navbar container */
   display: flex;

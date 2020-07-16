@@ -10,7 +10,7 @@ import "../css/css-global/navbar.css";
 
 function Navbar() {
   return (
-    <div className="mp mp-fit mp-color-5">
+    <div className="mp mp-fit mp-color-5 nb">
       <div className="imp nb-container">
         <div className="logo nb-logo"></div>
         <ul className="nb-item-list mp-txt-color-2">
