@@ -28,7 +28,11 @@
   background-image: url(/home-page/fast.png);
 }
 
-.job-msu {
+.job-msu-1 {
+  background-image: url(/home-page/msu-logo.jpg);
+}
+
+.job-msu-2 {
   background-image: url(/home-page/bobcat.png);
 }
 

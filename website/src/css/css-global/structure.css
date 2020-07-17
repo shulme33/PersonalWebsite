@@ -1,7 +1,7 @@
 /* CSS Variables */
 :root {
   --color-1-light-grey: #d0ccd0;
-  --color-2-white: #fbfcff;
+  --color-2-white: #fff; /* #fbfcff; */
   --color-3-dark-grey: #605856;
   --color-4-aquamarine: #1c6e8c;
   --color-5-dark-blue: #274156;

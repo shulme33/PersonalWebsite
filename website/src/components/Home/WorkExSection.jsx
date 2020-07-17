@@ -22,7 +22,7 @@ function WorkExSection() {
           dolorem vel?"
         />
         <Job
-          jobPicture=" job-msu"
+          jobPicture=" job-msu-1"
           jobCompany="MSU Bozeman College of Engineering"
           jobTitle="Research Assistant / Web Developer"
           jobLocation="Bozeman, Montana"
@@ -32,7 +32,7 @@ function WorkExSection() {
           dolorem vel?"
         />
         <Job
-          jobPicture=" job-msu"
+          jobPicture=" job-msu-2"
           jobCompany="MSU Bozeman Computer Science Department"
           jobTitle="Course Assistant"
           jobLocation="Bozeman, Montana"

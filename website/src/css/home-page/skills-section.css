@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 60px;
 }
 
 .single-skill {
@@ -44,4 +45,9 @@
 
 .star-unfilled {
   background-image: url(/star-not-filled.png);
+}
+
+.skills-divider {
+  width: 100%;
+  height: 50px;
 }
