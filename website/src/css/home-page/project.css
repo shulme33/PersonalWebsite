@@ -1,0 +1,17 @@
+.project-item {
+  width: 40%;
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  background-color: lightgrey;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 560px) {
+  .project-item {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+  }
+}

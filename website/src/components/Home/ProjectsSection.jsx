@@ -1,5 +1,8 @@
 import React from "react";
+import SectionTitle from "../SectionTitle.jsx";
+import Project from "./Project.jsx";
 import "../../css/css-global/structure.css";
+import "../../css/home-page/projects-section.css";
 
 /*
 
@@ -9,8 +12,15 @@ import "../../css/css-global/structure.css";
 
 function ProjectsSection() {
   return (
-    <div className="mp mp-fit mp-color-4">
-      <div className="imp imp-flex high-imp">Projects</div>
+    <div className="mp mp-fit mp-color-2">
+      <div className="imp imp-flex proj-imp">
+        <SectionTitle mainTitle="It's Alive!" subTitle="Personal Projects" />
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+      </div>
     </div>
   );
 }

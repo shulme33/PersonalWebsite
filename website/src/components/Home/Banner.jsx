@@ -14,7 +14,7 @@ function Banner() {
       <div className="ban-imp">
         <div className="ban-img"></div>
         <div className="ban-img-txt">
-          <h1 className="mp-txt-color-2">
+          <h1 className="mp-txt-color-2 ban-main-title">
             Samuel <br></br>Hulme
           </h1>
           <h4 className="mp-txt-color-2">Software Developer</h4>
