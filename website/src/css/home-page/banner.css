@@ -64,6 +64,7 @@
   .ban-img-txt {
     text-align: center;
     padding: 0px;
+    width: 100%;
   }
 }
 
@@ -76,17 +77,5 @@
   .ban-img-txt h1 {
     /* Make my name a bit smaller for smaller screens */
     font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .ban-img-txt h1 {
-    /* Make banner text even smaller */
-    font-size: 25px;
-  }
-
-  .ban-img-txt h4 {
-    /* Make banner text even smaller */
-    font-size: 12px;
   }
 }
