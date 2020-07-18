@@ -15,11 +15,30 @@ function ProjectsSection() {
     <div className="mp mp-fit mp-color-2">
       <div className="imp imp-flex proj-imp">
         <SectionTitle mainTitle="It's Alive!" subTitle="Personal Projects" />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        <Project
+          projectTitle={["Personal Website"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Edamam API"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Virtual Breadboard"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Huffman Coding"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Mine Sweeper"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Mine Sweeper"]}
+          projectPicture=" project-pic-personal-website"
+        />
       </div>
     </div>
   );

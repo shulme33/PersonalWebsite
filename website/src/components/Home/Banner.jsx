@@ -17,9 +17,9 @@ function Banner() {
           <h1 className="mp-txt-color-2 ban-main-title">
             Samuel <br></br>Hulme
           </h1>
-          <h4 className="mp-txt-color-2">Software Developer</h4>
-          <h4 className="mp-txt-color-2">Enjoyer of Cocoa Wheats</h4>
-          <h4 className="mp-txt-color-2">Stupid But Not Dumb</h4>
+          <p className="mp-txt-color-2">Software Developer</p>
+          <p className="mp-txt-color-2">Enjoyer of Cocoa Wheats</p>
+          <p className="mp-txt-color-2">Stupid But Not Dumb</p>
         </div>
       </div>
     </div>
