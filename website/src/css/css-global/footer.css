@@ -1,18 +1,75 @@
-.foot-imp {
+.ftr-imp {
   /* Footer inner main panel */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   min-height: 75px;
+  height: auto;
 }
 
-.foot-imp a {
+.ftr-imp a {
   /* The <a> tag adds some "padding" at the bottom for the text. This removes it. */
   font-size: 0px;
 }
 
-.foot-social-icon {
+.ftr-section {
+  width: 30%;
+  height: 100%;
+  text-align: left;
+  padding: 60px 20px;
+  color: var(--color-2-white);
+}
+
+.ftr-social {
+}
+
+.ftr-contact {
+  background-color: pink;
+}
+
+.ftr-rating {
+  background-color: orange;
+}
+
+.ftr-title {
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.ftr-social-list {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.ftr-social-item {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.ftr-instagram {
+  background-image: url(/icon-instagram.png);
+}
+
+.ftr-facebook {
+  background-image: url(/icon-facebook.png);
+}
+
+.ftr-github {
+  background-image: url(/icon-github.png);
+}
+
+.ftr-linkedin {
+  background-image: url(/icon-linkedin.png);
+}
+
+.ftr-social-icon {
   /* List of social media icons */
   display: inline-flex;
   width: 35px;
