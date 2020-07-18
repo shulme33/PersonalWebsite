@@ -36,7 +36,7 @@ function ProjectsSection() {
           projectPicture=" project-pic-personal-website"
         />
         <Project
-          projectTitle={["Mine Sweeper"]}
+          projectTitle={["Mine Sweeper blahh blahh"]}
           projectPicture=" project-pic-personal-website"
         />
       </div>
@@ -45,3 +45,27 @@ function ProjectsSection() {
 }
 
 export default ProjectsSection;
+
+/*
+
+<Project
+          projectTitle={["Edamam API"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Virtual Breadboard"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Huffman Coding"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Mine Sweeper"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        <Project
+          projectTitle={["Mine Sweeper blahh blahh"]}
+          projectPicture=" project-pic-personal-website"
+        />
+        */

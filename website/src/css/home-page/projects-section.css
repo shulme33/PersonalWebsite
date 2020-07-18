@@ -4,3 +4,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 510px) {
+  .proj-imp {
+    padding: 60px 20px;
+  }
+}
