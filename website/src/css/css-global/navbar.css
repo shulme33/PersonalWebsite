@@ -22,6 +22,7 @@
   min-width: 185px;
   height: 75px;
   display: inline-flex;
+  margin-left: 20px;
 }
 
 .nb-item-list {
@@ -56,5 +57,10 @@
   /* Add separation between navbar logo and clickable items */
   .nb-item-list {
     margin-bottom: 10px;
+  }
+
+  .nb-logo {
+    /* Website logo in the navbar */
+    margin-left: 0px;
   }
 }

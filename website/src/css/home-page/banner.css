@@ -11,14 +11,15 @@
   /* Profile picture in banner section */
   width: 50vw;
   height: 80vh;
-  background-image: url(/home-page/me-2.jpg);
+  background-image: url(/home-page/profile-picture-2.jpg);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   background-size: cover;
 }
 
 .ban-main-title {
-  font-family: "Rubik Mono One", sans-serif;
+  /*font-family: "Rubik Mono One", sans-serif;*/
+  font-family: "Montserrat", sans-serif;
 }
 
 .ban-img-txt {
@@ -72,10 +73,5 @@
   .ban-img-txt {
     /* Add spacing between banner picture and text */
     margin-top: 20px;
-  }
-
-  .ban-img-txt h1 {
-    /* Make my name a bit smaller for smaller screens */
-    font-size: 35px;
   }
 }

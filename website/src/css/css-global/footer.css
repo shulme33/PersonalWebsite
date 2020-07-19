@@ -103,3 +103,16 @@
   /* Clickable Facebook logo */
   background-image: url(/icon-facebook.png);
 }
+
+@media screen and (max-width: 510px) {
+  .ftr-imp {
+    /* Footer inner main panel */
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .ftr-section {
+    width: 80%;
+    padding-top: 20px;
+  }
+}

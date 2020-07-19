@@ -18,10 +18,18 @@ function Footer() {
         <div className="ftr-section ftr-social">
           <p className="ftr-title">Follow me on social media!</p>
           <ul className="ftr-social-list">
-            <li className="ftr-social-item ftr-linkedin"></li>
-            <li className="ftr-social-item ftr-instagram"></li>
-            <li className="ftr-social-item ftr-facebook"></li>
-            <li className="ftr-social-item ftr-github"></li>
+            <a href="https://www.linkedin.com/in/samuelhulme">
+              <li className="ftr-social-item ftr-linkedin"></li>
+            </a>
+            <a href="https://www.instagram.com/shulme33/">
+              <li className="ftr-social-item ftr-instagram"></li>
+            </a>
+            <a href="https://www.facebook.com/sam.hulme.7/">
+              <li className="ftr-social-item ftr-facebook"></li>
+            </a>
+            <a href="https://github.com/shulme33">
+              <li className="ftr-social-item ftr-github"></li>
+            </a>
           </ul>
         </div>
       </div>
