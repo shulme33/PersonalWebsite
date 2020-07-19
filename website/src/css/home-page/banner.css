@@ -7,11 +7,19 @@
   flex-direction: row;
 }
 
-.ban-img {
+.ban-img-CHANGE {
   /* Profile picture in banner section */
   width: 50vw;
   height: 80vh;
-  background-image: url(/home-page/profile-picture-2.jpg);
+  background-image: url(/home-page/banner-image.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ban-mp-img {
+  height: 80vh;
+  background-image: url(/home-page/banner-image.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,10 +36,9 @@
   height: auto;
   margin-top: 0px;
   display: inline-flex;
-  justify-content: center;
   flex-direction: column;
   text-align: left;
-  padding: 0 0 0 8%;
+  padding: 8% 0 0 8%;
 }
 
 .ban-img-txt * {
@@ -41,7 +48,7 @@
 
 .ban-img-txt h1 {
   /* Make my name a bit bigger */
-  font-size: 50px;
+  font-size: 70px;
 }
 
 /*
@@ -53,10 +60,11 @@
     /* When screen gets small, put text under profile picture */
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 60px 0;
   }
 
-  .ban-img {
+  .ban-img-CHANGE {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -73,5 +81,10 @@
   .ban-img-txt {
     /* Add spacing between banner picture and text */
     margin-top: 20px;
+  }
+
+  .ban-img-txt h1 {
+    /* Make my name a bit bigger */
+    font-size: 60px;
   }
 }
