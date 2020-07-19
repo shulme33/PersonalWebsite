@@ -21,23 +21,23 @@ function ProjectsSection() {
         />
         <Project
           projectTitle={["Edamam API"]}
-          projectPicture=" project-pic-personal-website"
+          projectPicture=" project-pic-edamam"
         />
         <Project
           projectTitle={["Virtual Breadboard"]}
-          projectPicture=" project-pic-personal-website"
+          projectPicture=" project-pic-breadboard"
         />
         <Project
           projectTitle={["Huffman Coding"]}
-          projectPicture=" project-pic-personal-website"
+          projectPicture=" project-pic-huffman"
         />
         <Project
           projectTitle={["Mine Sweeper"]}
-          projectPicture=" project-pic-personal-website"
+          projectPicture=" project-pic-minesweeper"
         />
         <Project
-          projectTitle={["Mine Sweeper blahh blahh"]}
-          projectPicture=" project-pic-personal-website"
+          projectTitle={["C Programming"]}
+          projectPicture=" project-pic-coding"
         />
       </div>
     </div>

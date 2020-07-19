@@ -14,6 +14,7 @@ function Footer() {
   return (
     <div className="mp mp-fit mp-color-5">
       <div className="imp ftr-imp">
+        <div className="ftr-section ftr-social ftr-logo"></div>
         <div className="ftr-section ftr-social">
           <p className="ftr-title">Follow me on social media!</p>
           <ul className="ftr-social-list">
@@ -23,10 +24,6 @@ function Footer() {
             <li className="ftr-social-item ftr-github"></li>
           </ul>
         </div>
-        <div className="ftr-section ftr-contact">
-          <p className="ftr-title">Contact Me</p>
-        </div>
-        <div className="ftr-section ftr-rating"></div>
       </div>
     </div>
   );

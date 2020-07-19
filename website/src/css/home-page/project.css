@@ -96,6 +96,26 @@
   background-image: url(/home-page/mak-grad.jpg);
 }
 
+.project-pic-edamam {
+  background-image: url(/home-page/food.jpg);
+}
+
+.project-pic-breadboard {
+  background-image: url(/home-page/circuits.jpg);
+}
+
+.project-pic-huffman {
+  background-image: url(/home-page/binary.jpg);
+}
+
+.project-pic-minesweeper {
+  background-image: url(/home-page/minesweeper.png);
+}
+
+.project-pic-coding {
+  background-image: url(/home-page/coding.jpg);
+}
+
 @media screen and (max-width: 700px) {
   .project-item {
     width: 100%;
