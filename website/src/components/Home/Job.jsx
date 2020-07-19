@@ -3,14 +3,22 @@ import "../../css/home-page/job.css";
 import "../../css/css-global/structure.css";
 
 function Job({
+  jobIsLast,
   jobPicture,
   jobCompany,
   jobTitle,
   jobLocation,
   jobDescription,
 }) {
+  function isLast() {
+    if (!jobIsLast) {
+      return " job-item-not-last";
+    }
+    return "";
+  }
+
   return (
-    <div className="job-item">
+    <div className={"job-item " + isLast()}>
       <div className={"job-picture " + jobPicture}></div>
       <div className="job-text">
         <h6 className="job-company">{jobCompany}</h6>
@@ -23,3 +31,7 @@ function Job({
 }
 
 export default Job;
+
+/*
+isLoggedIn ? TrueClass : FalseClass
+*/

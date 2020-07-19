@@ -18,26 +18,32 @@ function ProjectsSection() {
         <Project
           projectTitle={["Personal Website"]}
           projectPicture=" project-pic-personal-website"
+          repoLocation="https://github.com/shulme33/PersonalWebsite"
         />
         <Project
           projectTitle={["Edamam API"]}
           projectPicture=" project-pic-edamam"
+          repoLocation="https://github.com/shulme33/EdamamRecipeAPI"
         />
         <Project
           projectTitle={["Virtual Breadboard"]}
           projectPicture=" project-pic-breadboard"
+          repoLocation="https://github.com/shulme33/BeckerSummerProjects"
         />
         <Project
           projectTitle={["Huffman Coding"]}
           projectPicture=" project-pic-huffman"
+          repoLocation="https://github.com/shulme33/HuffmanCode"
         />
         <Project
           projectTitle={["Mine Sweeper"]}
           projectPicture=" project-pic-minesweeper"
+          repoLocation="https://github.com/shulme33/MineSweeper"
         />
         <Project
           projectTitle={["C Programming"]}
           projectPicture=" project-pic-coding"
+          repoLocation="https://github.com/shulme33/C_Programming_Tutor"
         />
       </div>
     </div>

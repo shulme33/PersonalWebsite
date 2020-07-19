@@ -12,6 +12,7 @@ function WorkExSection() {
           subTitle="Work Experience and History"
         />
         <Job
+          jobIsLast={false}
           jobPicture=" job-fast-llc"
           jobCompany="Fast Enterprises, LLC"
           jobTitle="Implementation Consultant"
@@ -22,6 +23,7 @@ function WorkExSection() {
           dolorem vel?"
         />
         <Job
+          jobIsLast={false}
           jobPicture=" job-msu-1"
           jobCompany="MSU Bozeman College of Engineering"
           jobTitle="Research Assistant / Web Developer"
@@ -32,6 +34,7 @@ function WorkExSection() {
           dolorem vel?"
         />
         <Job
+          jobIsLast={true}
           jobPicture=" job-msu-2"
           jobCompany="MSU Bozeman Computer Science Department"
           jobTitle="Course Assistant"

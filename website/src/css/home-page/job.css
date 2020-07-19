@@ -66,7 +66,7 @@
     padding: 0px;
   }
 
-  .job-item::after {
+  .job-item-not-last::after {
     content: "";
     width: 90%;
     height: 1px;

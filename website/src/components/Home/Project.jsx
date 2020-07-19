@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/home-page/project.css";
 
-function Project({ projectTitle, projectPicture }) {
+function Project({ projectTitle, projectPicture, repoLocation }) {
   return (
     <div className="project-item">
       <div className={"project-picture" + projectPicture}></div>
@@ -13,7 +13,11 @@ function Project({ projectTitle, projectPicture }) {
           accusamus iure officia doloribus quasi veritatis quis.
         </p>
         <div className="project-button-container">
-          <button className="project-button">View on GitHub</button>
+          <a href={repoLocation}>
+            <button className="project-button" onClick>
+              View on Github
+            </button>
+          </a>
         </div>
       </div>
     </div>
@@ -21,3 +25,18 @@ function Project({ projectTitle, projectPicture }) {
 }
 
 export default Project;
+
+/* 
+
+<button className="project-button" onClick>View on GitHub</button> 
+
+
+<button
+            className="project-button"
+            onclick="location.href='http://www.google.com'"
+            type="button"
+          >
+            Tester 2
+          </button>
+
+*/
