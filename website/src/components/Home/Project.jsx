@@ -2,6 +2,14 @@ import React from "react";
 import "../../css/home-page/project.css";
 
 function Project({ projectTitle, projectPicture, repoLocation }) {
+  function visibilityClassButton() {
+    return repoLocation == "" ? " link-hidden" : "";
+  }
+
+  function visibilityClassPar() {
+    return repoLocation == "" ? "" : " link-hidden";
+  }
+
   return (
     <div className="project-item">
       <div className={"project-picture" + projectPicture}></div>
@@ -14,10 +22,14 @@ function Project({ projectTitle, projectPicture, repoLocation }) {
         </p>
         <div className="project-button-container">
           <a href={repoLocation}>
-            <button className="project-button" onClick>
+            <button
+              className={"project-button " + visibilityClassButton()}
+              onClick
+            >
               View on Github
             </button>
           </a>
+          <p className={visibilityClassPar()}>Inquire For Details</p>
         </div>
       </div>
     </div>

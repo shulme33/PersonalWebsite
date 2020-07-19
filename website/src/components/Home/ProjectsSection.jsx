@@ -28,7 +28,7 @@ function ProjectsSection() {
         <Project
           projectTitle={["Virtual Breadboard"]}
           projectPicture=" project-pic-breadboard"
-          repoLocation="https://github.com/shulme33/BeckerSummerProjects"
+          repoLocation=""
         />
         <Project
           projectTitle={["Huffman Coding"]}

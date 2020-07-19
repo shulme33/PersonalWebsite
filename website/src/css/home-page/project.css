@@ -92,6 +92,10 @@
   color: var(--color-2-white);
 }
 
+.link-hidden {
+  display: none;
+}
+
 .project-pic-personal-website {
   background-image: url(/home-page/mak-grad.jpg);
 }
