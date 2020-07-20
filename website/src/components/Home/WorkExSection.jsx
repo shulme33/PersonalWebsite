@@ -5,7 +5,7 @@ import "../../css/home-page/work-experience.css";
 
 function WorkExSection() {
   return (
-    <div className="mp mp-fit mp-color-2">
+    <div className="mp mp-fit mp-color-2" id="id-work-section">
       <div className="imp imp-flex work-imp">
         <SectionTitle
           mainTitle="The Long and Winding Road..."

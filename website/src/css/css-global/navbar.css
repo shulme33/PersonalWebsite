@@ -37,10 +37,16 @@
 
 .nb-item {
   /* Each item in navbar */
+  color: inherit;
   display: inline-flex;
   align-items: center;
   height: auto;
   padding: 0px 20px;
+}
+
+.nb-item:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 /*

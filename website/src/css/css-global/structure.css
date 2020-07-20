@@ -9,6 +9,10 @@
   --window-size-small: 510px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* 
     Logo 
 */

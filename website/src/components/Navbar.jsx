@@ -14,9 +14,15 @@ function Navbar() {
       <div className="imp nb-container">
         <div className="logo nb-logo"></div>
         <ul className="nb-item-list mp-txt-color-2">
-          <li className="nb-item anim-upscale">Home</li>
-          <li className="nb-item anim-upscale">Projects</li>
-          <li className="nb-item anim-upscale">Resume</li>
+          <a href="#id-work-section" className="nb-item">
+            <li className="anim-upscale">History</li>
+          </a>
+          <a href="#id-skills-section" className="nb-item">
+            <li className="anim-upscale">Skills</li>
+          </a>
+          <a href="#id-projects-section" className="nb-item">
+            <li className="anim-upscale">Projects</li>
+          </a>
         </ul>
       </div>
     </div>

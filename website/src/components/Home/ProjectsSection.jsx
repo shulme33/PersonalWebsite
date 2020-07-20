@@ -12,7 +12,7 @@ import "../../css/home-page/projects-section.css";
 
 function ProjectsSection() {
   return (
-    <div className="mp mp-fit mp-color-2">
+    <div className="mp mp-fit mp-color-2" id="id-projects-section">
       <div className="imp imp-flex proj-imp">
         <SectionTitle mainTitle="It's Alive!" subTitle="Personal Projects" />
         <Project

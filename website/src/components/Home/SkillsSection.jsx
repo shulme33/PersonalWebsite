@@ -5,7 +5,7 @@ import "../../css/home-page/skills-section.css";
 
 function SkillsSection() {
   return (
-    <div className="mp mp-fit mp-color-5">
+    <div className="mp mp-fit mp-color-5" id="id-skills-section">
       <div className="imp imp-flex high-imp mp-txt-color-2 skills-container">
         <SectionTitle
           mainTitle="Yeah, I've Got Skills"
