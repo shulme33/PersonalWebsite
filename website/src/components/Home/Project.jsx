@@ -1,7 +1,12 @@
 import React from "react";
 import "../../css/home-page/project.css";
 
-function Project({ projectTitle, projectPicture, repoLocation }) {
+function Project({
+  projectTitle,
+  projectPicture,
+  repoLocation,
+  projectDescription,
+}) {
   function visibilityClassButton() {
     return repoLocation == "" ? " link-hidden" : "";
   }
@@ -16,10 +21,7 @@ function Project({ projectTitle, projectPicture, repoLocation }) {
 
       <div className="project-text-container">
         <h4 className="project-title">{projectTitle}</h4>
-        <p className="project-text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
-          accusamus iure officia doloribus quasi veritatis quis.
-        </p>
+        <p className="project-text">{projectDescription}</p>
         <div className="project-button-container">
           <a href={repoLocation}>
             <button

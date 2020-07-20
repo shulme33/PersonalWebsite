@@ -19,31 +19,37 @@ function ProjectsSection() {
           projectTitle={["Personal Website"]}
           projectPicture=" project-pic-personal-website"
           repoLocation="https://github.com/shulme33/PersonalWebsite"
+          projectDescription="The very website you are viewing right now! This is a place for me to experiment with a variety of technologies as well as one to showcase my skills and projects to others."
         />
         <Project
           projectTitle={["Edamam API"]}
           projectPicture=" project-pic-edamam"
           repoLocation="https://github.com/shulme33/EdamamRecipeAPI"
+          projectDescription="A React application built around the Edamam API. This application is given some search critieria and returns recipes based on that input."
         />
         <Project
           projectTitle={["Virtual Breadboard"]}
           projectPicture=" project-pic-breadboard"
           repoLocation=""
+          projectDescription="A web application built in HTML, CSS, and JavaScript Canvas that allows a user to simulate a variety of electrical circuits through use of an interactive breadboard, voltmeter, and ohmmeter."
         />
         <Project
           projectTitle={["Huffman Coding"]}
           projectPicture=" project-pic-huffman"
           repoLocation="https://github.com/shulme33/HuffmanCode"
+          projectDescription="A simple implementation of the Huffman Coding compression algorithm. This particular instance of the algorithm is written in Python."
         />
         <Project
           projectTitle={["Mine Sweeper"]}
           projectPicture=" project-pic-minesweeper"
           repoLocation="https://github.com/shulme33/MineSweeper"
+          projectDescription="An implementation of the popular Mine Sweeper game with Java and JavaFX."
         />
         <Project
           projectTitle={["C Programming"]}
           projectPicture=" project-pic-coding"
           repoLocation="https://github.com/shulme33/C_Programming_Tutor"
+          projectDescription="A set of C programming labs that I wrote while tutoring for the class in college."
         />
       </div>
     </div>
