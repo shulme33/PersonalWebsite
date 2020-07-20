@@ -30,7 +30,8 @@
 }
 
 .star-filled,
-.star-unfilled {
+.star-unfilled,
+.star-half-filled {
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -41,6 +42,10 @@
 
 .star-filled {
   background-image: url(/star-filled.png);
+}
+
+.star-half-filled {
+  background-image: url(/star-half-filled.png);
 }
 
 .star-unfilled {
