@@ -1,7 +1,6 @@
 import React from "react";
 import Banner from "./Banner.jsx";
 import Welcome from "./Welcome.jsx";
-import HighlightSection from "./HighlightSection.jsx";
 import ProjectsSection from "./ProjectsSection.jsx";
 import WorkExSection from "./WorkExSection.jsx";
 import SkillsSection from "./SkillsSection.jsx";

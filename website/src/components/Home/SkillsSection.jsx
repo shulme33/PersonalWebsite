@@ -3,6 +3,10 @@ import SectionTitle from "../SectionTitle.jsx";
 import SingleSkill from "./SingleSkill.jsx";
 import "../../css/home-page/skills-section.css";
 
+/*
+    Skills section on the home screen
+*/
+
 function SkillsSection() {
   return (
     <div className="mp mp-fit mp-color-5" id="id-skills-section">

@@ -1,4 +1,5 @@
 .proj-imp {
+  /* Main project section */
   padding: 60px;
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +8,7 @@
 
 @media screen and (max-width: 510px) {
   .proj-imp {
+    /* Reduce padding so it fits a mobile phone better */
     padding: 60px 20px;
   }
 }

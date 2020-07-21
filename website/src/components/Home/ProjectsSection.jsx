@@ -6,7 +6,7 @@ import "../../css/home-page/projects-section.css";
 
 /*
 
-    The home page of samhulme.com
+    The Projects section on the homepage
 
 */
 

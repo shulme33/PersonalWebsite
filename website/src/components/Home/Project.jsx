@@ -1,6 +1,10 @@
 import React from "react";
 import "../../css/home-page/project.css";
 
+/* 
+    Each individual personal project
+*/
+
 function Project({
   projectTitle,
   projectPicture,
@@ -39,18 +43,3 @@ function Project({
 }
 
 export default Project;
-
-/* 
-
-<button className="project-button" onClick>View on GitHub</button> 
-
-
-<button
-            className="project-button"
-            onclick="location.href='http://www.google.com'"
-            type="button"
-          >
-            Tester 2
-          </button>
-
-*/

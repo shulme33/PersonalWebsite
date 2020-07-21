@@ -3,6 +3,10 @@ import Job from "./Job.jsx";
 import SectionTitle from "../SectionTitle.jsx";
 import "../../css/home-page/work-experience.css";
 
+/*
+    Work experience section on the home page
+*/
+
 function WorkExSection() {
   return (
     <div className="mp mp-fit mp-color-2" id="id-work-section">

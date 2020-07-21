@@ -1,9 +1,0 @@
-.anim-upscale {
-  /* Animation to make item slightly larger on hover */
-  transition: all 0.1s ease-in-out;
-}
-.anim-upscale:hover {
-  /* Animation to make item slightly larger on hover */
-  transform: scale(1.1);
-  cursor: pointer;
-}

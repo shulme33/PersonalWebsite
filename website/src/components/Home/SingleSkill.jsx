@@ -1,28 +1,27 @@
 import React from "react";
 import "../../css/home-page/skills-section.css";
 
+/*
+    Each individual skill in the skills section
+*/
+
 function SingleSkill({ skillName, skillLevel }) {
   function determineSkillStarLevel() {
+    //Creating star rating visuals based on a number input out of 5 stars
     var starObject = [];
-    var i = 0;
 
-    for (i; i < Math.floor(skillLevel); i++) {
-      var tempObject = <div className="star-filled"></div>;
-      starObject.push(tempObject);
+    for (var i = 0; i < 5; i++) {
+      if (i >= skillLevel) {
+        //Unfilled star
+        starObject.push(<div className="star-unfilled"></div>);
+      } else if (skillLevel - i > 0 && skillLevel - i < 1) {
+        //Half-filled star
+        starObject.push(<div className="star-half-filled"></div>);
+      } else {
+        //Filled star
+        starObject.push(<div className="star-filled"></div>);
+      }
     }
-
-    if (skillLevel % 1 != 0) {
-      //This is something like 3.5 or 4.5 stars instead of a whole 3 or 4
-      var tempObject = <div className="star-half-filled"></div>;
-      starObject.push(tempObject);
-      i++;
-    }
-
-    for (i; i < 5; i++) {
-      var tempObject = <div className="star-unfilled"></div>;
-      starObject.push(tempObject);
-    }
-
     return starObject;
   }
 

@@ -2,6 +2,10 @@ import React from "react";
 import "../../css/home-page/job.css";
 import "../../css/css-global/structure.css";
 
+/*
+    Each individual job or education that I have had
+*/
+
 function Job({
   jobIsLast,
   jobPicture,
@@ -11,10 +15,7 @@ function Job({
   jobDescription,
 }) {
   function isLast() {
-    if (!jobIsLast) {
-      return " job-item-not-last";
-    }
-    return "";
+    return !jobIsLast ? " job-item-not-last" : "";
   }
 
   return (
@@ -31,7 +32,3 @@ function Job({
 }
 
 export default Job;
-
-/*
-isLoggedIn ? TrueClass : FalseClass
-*/

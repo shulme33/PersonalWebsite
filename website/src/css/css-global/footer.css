@@ -7,12 +7,8 @@
   height: auto;
 }
 
-.ftr-imp a {
-  /* The <a> tag adds some "padding" at the bottom for the text. This removes it. */
-  font-size: 0px;
-}
-
 .ftr-section {
+  /* Each column in the footer */
   width: 30%;
   height: 100%;
   display: flex;
@@ -22,31 +18,21 @@
   color: var(--color-2-white);
 }
 
-.ftr-social {
-}
-
 .ftr-logo {
+  /* Footer website logo */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-
   background-image: url(/website-logo.png);
 }
 
-.ftr-contact {
-  background-color: pink;
-}
-
-.ftr-rating {
-  background-color: orange;
-}
-
 .ftr-title {
-  font-weight: bold;
+  /* The title above the different social media links */
   margin: 0 0 20px 0;
 }
 
 .ftr-social-list {
+  /* List of social media links */
   margin: 0;
   list-style-type: none;
   padding: 0;
@@ -54,6 +40,7 @@
 }
 
 .ftr-social-item {
+  /* Each individual social media link */
   background-repeat: no-repeat;
   background-size: contain;
   padding: 0;
@@ -63,45 +50,23 @@
 }
 
 .ftr-instagram {
+  /* Instagram icon */
   background-image: url(/icon-instagram.png);
 }
 
 .ftr-facebook {
+  /* Facebook icon */
   background-image: url(/icon-facebook.png);
 }
 
 .ftr-github {
+  /* Github icon */
   background-image: url(/icon-github.png);
 }
 
 .ftr-linkedin {
+  /* LinkedIn icon */
   background-image: url(/icon-linkedin.png);
-}
-
-.ftr-social-icon {
-  /* List of social media icons */
-  display: inline-flex;
-  width: 35px;
-  height: 35px;
-  margin: 0 10px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.icon-git {
-  /* Clickable GitHub logo */
-  background-image: url(/icon-github.png);
-}
-
-.icon-insta {
-  /* Clickable Instagram logo */
-  background-image: url(/icon-instagram.png);
-}
-
-.icon-fb {
-  /* Clickable Facebook logo */
-  background-image: url(/icon-facebook.png);
 }
 
 @media screen and (max-width: 510px) {

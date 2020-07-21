@@ -1,4 +1,5 @@
 .project-item {
+  /* Each project item as a whole */
   max-width: 400px;
   width: 40%;
   min-height: 500px;
@@ -12,24 +13,8 @@
   border: 1px solid #e6e6e6;
 }
 
-/*
-.project-item {
-  position: relative;
-}
-
-.project-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-*/
-
 .project-picture {
+  /* Project item picture */
   width: 100%;
   height: 200px;
   -moz-border-radius: 0px;
@@ -41,6 +26,7 @@
 }
 
 .project-text-container {
+  /* Project item main rext section */
   width: 100%;
   min-height: 300px;
   height: auto;
@@ -55,6 +41,7 @@
 }
 
 .project-title {
+  /* Title of the project item */
   margin: 0;
   width: 100%;
   min-height: 60px;
@@ -64,6 +51,7 @@
 }
 
 .project-text {
+  /* Descriptive text about the project */
   min-height: 180px;
   height: auto;
   margin: 0;
@@ -72,12 +60,14 @@
 }
 
 .project-button-container {
+  /* Project item main button container */
   min-height: 60px;
   height: auto;
   display: flex;
 }
 
 .project-button {
+  /* Each button on the project. Leads to the project files or website */
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #000;
   color: #000;
@@ -88,39 +78,51 @@
 }
 
 .project-button:hover {
+  /* Button hover design */
   background-color: var(--color-5-dark-blue);
   color: var(--color-2-white);
 }
 
 .link-hidden {
+  /* 
+    Used when the project cannot be seen on GitHub. 
+    Happens when the project is confidential
+  */
   display: none;
 }
 
 .project-pic-personal-website {
+  /* Website Image */
   background-image: url(/home-page/mak-grad.jpg);
 }
 
 .project-pic-edamam {
+  /* Edamam Logo Picture */
   background-image: url(/home-page/food.jpg);
 }
 
 .project-pic-breadboard {
+  /* Breadboard Picture */
   background-image: url(/home-page/circuits.jpg);
 }
 
 .project-pic-huffman {
+  /* Huffman Picture */
   background-image: url(/home-page/binary.jpg);
 }
 
 .project-pic-minesweeper {
+  /* Minesweeper Picture */
   background-image: url(/home-page/minesweeper.png);
 }
 
 .project-pic-coding {
+  /* C Programming Picture */
   background-image: url(/home-page/coding.jpg);
 }
 
 @media screen and (max-width: 700px) {
+  /* Spread to fit the width of the screen */
   .project-item {
     width: 100%;
     max-width: 100%;

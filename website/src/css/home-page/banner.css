@@ -7,17 +7,8 @@
   flex-direction: row;
 }
 
-.ban-img-CHANGE {
-  /* Profile picture in banner section */
-  width: 50vw;
-  height: 80vh;
-  background-image: url(/home-page/banner-image.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .ban-mp-img {
+  /* Main banner image */
   height: 80vh;
   background-image: url(/home-page/banner-image.jpeg);
   background-repeat: no-repeat;
@@ -26,7 +17,7 @@
 }
 
 .ban-main-title {
-  /*font-family: "Rubik Mono One", sans-serif;*/
+  /* Main banner title */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -64,13 +55,8 @@
     padding: 60px 0;
   }
 
-  .ban-img-CHANGE {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-  }
-
   .ban-img-txt {
+    /* Put my name in middle of screen */
     text-align: center;
     padding: 0px;
     width: 100%;

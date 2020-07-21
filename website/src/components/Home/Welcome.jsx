@@ -1,9 +1,7 @@
 import React from "react";
-import Highlight from "./Highlight.jsx";
 import "../../css/css-global/structure.css";
 import "../../css/home-page/home-page.css";
 import "../../css/home-page/welcome.css";
-import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 /*

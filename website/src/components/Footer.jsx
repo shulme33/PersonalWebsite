@@ -1,12 +1,10 @@
 import React from "react";
 import "../css/css-global/structure.css";
 import "../css/css-global/footer.css";
-import "../css/css-global/navbar.css";
-import "../css/css-global/animations.css";
 
 /*
 
-    Navigation bar that stretches across the top of website 
+    Footer bar that stretches across the bottom of website 
 
 */
 
@@ -38,16 +36,3 @@ function Footer() {
 }
 
 export default Footer;
-
-/*
-<a href="https://www.instagram.com/shulme33/">
-          <div className="ftr-social-icon icon-insta anim-upscale"></div>
-        </a>
-        <a href="https://www.facebook.com/sam.hulme.7">
-          <div className="ftr-social-icon icon-fb anim-upscale"></div>
-        </a>
-        <a href="https://github.com/shulme33">
-          <div className="ftr-social-icon icon-git anim-upscale"></div>
-        </a>
-
-*/

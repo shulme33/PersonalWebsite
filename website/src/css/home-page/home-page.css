@@ -1,4 +1,5 @@
 .home-page {
+  /* Entire homepage (excluding navbar and footer) */
   width: 100vw;
   height: auto;
 }
