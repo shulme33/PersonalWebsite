@@ -1,4 +1,5 @@
 .wel-imp {
+  /* Imp for welcome section */
   padding: 80px;
 }
 
@@ -10,16 +11,19 @@
 }
 
 .wel-section-hdr {
+  /* Welcome title */
   width: 100%;
   height: auto;
   margin: 0 0 20px 0;
 }
 
 .wel-section-txt-1 {
+  /* Welcome text */
   margin: 0 0 20px 0;
 }
 
 .wel-section-txt-2 {
+  /* Second paragraph in welcome section */
   margin: 0px;
 }
 
@@ -32,6 +36,7 @@
 }
 
 @media screen and (max-width: 510px) {
+  /* Reduce padding for mobile */
   .wel-imp {
     padding: 60px 20px;
   }
