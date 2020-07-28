@@ -13,13 +13,13 @@ function SingleSkill({ skillName, skillLevel }) {
     for (var i = 0; i < 5; i++) {
       if (i >= skillLevel) {
         //Unfilled star
-        starObject.push(<div className="star-unfilled"></div>);
+        starObject.push(<div key={i} className="star-unfilled"></div>);
       } else if (skillLevel - i > 0 && skillLevel - i < 1) {
         //Half-filled star
-        starObject.push(<div className="star-half-filled"></div>);
+        starObject.push(<div key={i} className="star-half-filled"></div>);
       } else {
         //Filled star
-        starObject.push(<div className="star-filled"></div>);
+        starObject.push(<div key={i} className="star-filled"></div>);
       }
     }
     return starObject;

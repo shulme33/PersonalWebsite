@@ -12,11 +12,11 @@ function Project({
   projectDescription,
 }) {
   function visibilityClassButton() {
-    return repoLocation == "" ? " link-hidden" : "";
+    return repoLocation === "" ? " link-hidden" : "";
   }
 
   function visibilityClassPar() {
-    return repoLocation == "" ? "" : " link-hidden";
+    return repoLocation === "" ? "" : " link-hidden";
   }
 
   return (
@@ -28,10 +28,7 @@ function Project({
         <p className="project-text">{projectDescription}</p>
         <div className="project-button-container">
           <a href={repoLocation}>
-            <button
-              className={"project-button " + visibilityClassButton()}
-              onClick
-            >
+            <button className={"project-button " + visibilityClassButton()}>
               View on Github
             </button>
           </a>
