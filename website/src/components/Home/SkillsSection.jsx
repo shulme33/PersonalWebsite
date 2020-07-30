@@ -24,9 +24,9 @@ class SkillsSection extends Component {
           />
           <SingleSkill key={1} skillName="HTML 5" skillLevel={3.5} />
           <SingleSkill key={2} skillName="CSS 3" skillLevel={3.5} />
-          <SingleSkill key={3} skillName="JavaScript" skillLevel={3.5} />
+          <SingleSkill key={3} skillName="JavaScript" skillLevel={3} />
           <SingleSkill key={4} skillName="React" skillLevel={3} />
-          <SingleSkill key={5} skillName="Node.js" skillLevel={2.5} />
+          <SingleSkill key={5} skillName="Node.js" skillLevel={2} />
           <SingleSkill key={6} skillName="Python" skillLevel={4} />
           <SingleSkill key={7} skillName="Java" skillLevel={4} />
           <SingleSkill key={8} skillName="VB.NET" skillLevel={4} />
