@@ -8,10 +8,44 @@ import "../../css/home-page/skills-section.css";
 */
 
 class SkillsSection extends Component {
-  state = { skills: [] };
+  constructor() {
+    super();
+    this.state = { skills: [] };
+  }
 
   componentDidMount() {
     console.log("SkillsSection Component Mounted!");
+    fetch("/api/skills")
+      .then((res) => res.json())
+      .then((incomingSkills) =>
+        this.setState({ skills: incomingSkills }, () =>
+          console.log("Skills fetched...", this.state.skills)
+        )
+      );
+  }
+
+  showSkills() {
+    var skills = this.state.skills;
+    if (skills === undefined) {
+      return [];
+    }
+    var skillsToPrint = [];
+    var dividerAdded = false;
+    for (var i = 0; i < skills.length; i++) {
+      if (!dividerAdded && skills[i].section === 2) {
+        skillsToPrint.push(<div className="skills-divider" key={1000}></div>);
+        dividerAdded = true;
+      }
+      var tempSkill = (
+        <SingleSkill
+          key={skills[i].id}
+          skillName={skills[i].skillName}
+          skillLevel={skills[i].skillLevel}
+        />
+      );
+      skillsToPrint.push(tempSkill);
+    }
+    return skillsToPrint;
   }
 
   render() {
@@ -22,7 +56,18 @@ class SkillsSection extends Component {
             mainTitle="Yeah, I've Got Skills"
             subTitle="Technical Skill Set"
           />
-          <SingleSkill key={1} skillName="HTML 5" skillLevel={3.5} />
+          {this.showSkills()}
+        </div>
+      </div>
+    );
+  }
+}
+
+export default SkillsSection;
+
+/*
+
+<SingleSkill key={1} skillName="HTML 5" skillLevel={3.5} />
           <SingleSkill key={2} skillName="CSS 3" skillLevel={3.5} />
           <SingleSkill key={3} skillName="JavaScript" skillLevel={3} />
           <SingleSkill key={4} skillName="React" skillLevel={3} />
@@ -41,10 +86,5 @@ class SkillsSection extends Component {
           <SingleSkill key={16} skillName="XAMPP" skillLevel={2.5} />
           <SingleSkill key={17} skillName="Figma" skillLevel={2.5} />
           <SingleSkill key={18} skillName="ES6: Skyrim" skillLevel={5} />
-        </div>
-      </div>
-    );
-  }
-}
 
-export default SkillsSection;
+  */

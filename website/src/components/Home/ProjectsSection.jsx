@@ -19,6 +19,9 @@ function ProjectsSection() {
           projectTitle={["Personal Website"]}
           projectPicture=" project-pic-personal-website"
           repoLocation="https://github.com/shulme33/PersonalWebsite"
+          repoLocation2="https://github.com/shulme33/PersonalWebsiteServer"
+          buttonTitle1="View Client"
+          buttonTitle2="View Server"
           projectDescription="The very website you are viewing right now! This is a place for me to experiment with a variety of technologies as well as one to showcase my skills and projects to others."
         />
         <Project

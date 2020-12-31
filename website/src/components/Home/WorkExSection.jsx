@@ -51,6 +51,25 @@ function WorkExSection() {
           jobLocation="Bozeman, Montana"
           jobDescription="I oversaw lab sessions and instructed students in the principles of HTML, CSS, Java, and C programming in conjuction with course materials. My other duties involved holding out-of-class study sessions and grading student work."
         />
+        <Job
+          key={"msu-1"}
+          jobIsLast={true}
+          jobPicture=" job-msu-1"
+          jobCompany="Montana State University"
+          jobTitle={[
+            "B.S. in Computer Science",
+            <br key="br-3"></br>,
+            "Minor in Electrical Engineering",
+          ]}
+          jobTime="Earned May 2018"
+          jobLocation="Bozeman, Montana"
+          jobDescription={[
+            "My time at MSU opened my eyes to an entire world of experiences that I had not been able to have growing up. I explored a multitude of tech disciplines and fell in love with the software engineer life. The faculty was excellent and fostered a love of learned in growing that has stayed with me since graduation. ",
+            <br key="br-4"></br>,
+            <br key="br-5"></br>,
+            "Attending MSU gave me the start that I needed and was one of the best decisions I have ever made for myself.",
+          ]}
+        />
       </div>
     </div>
   );
