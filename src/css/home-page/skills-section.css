@@ -1,0 +1,74 @@
+.skills-container {
+  /* Imp for Skills Section */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 60px 80px 80px 80px;
+}
+
+.single-skill {
+  /* Each individual skill */
+  width: 100%;
+  max-width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.single-skill p {
+  /* Add spacing for individual skill */
+  margin: 0px;
+}
+
+.skill-stars {
+  /* Individual list of stars */
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-filled,
+.star-unfilled,
+.star-half-filled {
+  /* Individual star. This is each single star */
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 5px;
+}
+
+.star-filled {
+  /* Image for filled star */
+  background-image: url(/star-filled.png);
+}
+
+.star-half-filled {
+  /* Image for half filled star */
+  background-image: url(/star-half-filled.png);
+}
+
+.star-unfilled {
+  /* Image for unfilled star */
+  background-image: url(/star-not-filled.png);
+}
+
+.skills-divider {
+  /* Divider between hard technical skills and less technical skills section */
+  width: 100%;
+  height: 50px;
+}
+
+@media screen and (max-width: 510px) {
+  /* Reduce padding for mobile */
+  .skills-container {
+    padding: 60px 20px 80px 20px;
+  }
+}
