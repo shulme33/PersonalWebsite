@@ -23,7 +23,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url(/website-logo.png);
+  background-image: url(../../images/website-logo.png);
 }
 
 .ftr-title {
@@ -51,22 +51,22 @@
 
 .ftr-instagram {
   /* Instagram icon */
-  background-image: url(/icon-instagram.png);
+  background-image: url(../../images/icon-instagram.png);
 }
 
 .ftr-facebook {
   /* Facebook icon */
-  background-image: url(/icon-facebook.png);
+  background-image: url(../../images/icon-facebook.png);
 }
 
 .ftr-github {
   /* Github icon */
-  background-image: url(/icon-github.png);
+  background-image: url(../../images/icon-github.png);
 }
 
 .ftr-linkedin {
   /* LinkedIn icon */
-  background-image: url(/icon-linkedin.png);
+  background-image: url(../../images/icon-linkedin.png);
 }
 
 @media screen and (max-width: 510px) {

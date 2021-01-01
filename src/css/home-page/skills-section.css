@@ -47,17 +47,17 @@
 
 .star-filled {
   /* Image for filled star */
-  background-image: url(/star-filled.png);
+  background-image: url(../../images/star-filled.png);
 }
 
 .star-half-filled {
   /* Image for half filled star */
-  background-image: url(/star-half-filled.png);
+  background-image: url(../../images/star-half-filled.png);
 }
 
 .star-unfilled {
   /* Image for unfilled star */
-  background-image: url(/star-not-filled.png);
+  background-image: url(../../images/star-not-filled.png);
 }
 
 .skills-divider {

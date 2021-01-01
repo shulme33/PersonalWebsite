@@ -29,17 +29,17 @@
 
 .job-fast-llc {
   /* FAST Logo 1 */
-  background-image: url(/home-page/fast.png);
+  background-image: url(../../images/home-page/fast.png);
 }
 
 .job-msu-1 {
   /* MSU Logo 1 */
-  background-image: url(/home-page/msu-logo.jpg);
+  background-image: url(../../images/home-page/msu-logo.jpg);
 }
 
 .job-msu-2 {
   /* MSU Logo 2 */
-  background-image: url(/home-page/bobcat.png);
+  background-image: url(../../images/home-page/bobcat.png);
 }
 
 .job-company {

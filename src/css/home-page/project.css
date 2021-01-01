@@ -93,32 +93,32 @@
 
 .project-pic-personal-website {
   /* Website Image */
-  background-image: url(/home-page/mak-grad.jpg);
+  background-image: url(../../images/home-page/mak-grad.jpg);
 }
 
 .project-pic-edamam {
   /* Edamam Logo Picture */
-  background-image: url(/home-page/food.jpg);
+  background-image: url(../../images/home-page/food.jpg);
 }
 
 .project-pic-breadboard {
   /* Breadboard Picture */
-  background-image: url(/home-page/circuits.jpg);
+  background-image: url(../../images/home-page/circuits.jpg);
 }
 
 .project-pic-huffman {
   /* Huffman Picture */
-  background-image: url(/home-page/binary.jpg);
+  background-image: url(../../images/home-page/binary.jpg);
 }
 
 .project-pic-minesweeper {
   /* Minesweeper Picture */
-  background-image: url(/home-page/minesweeper.png);
+  background-image: url(../../images/home-page/minesweeper.png);
 }
 
 .project-pic-coding {
   /* C Programming Picture */
-  background-image: url(/home-page/coding.jpg);
+  background-image: url(../../images/home-page/coding.jpg);
 }
 
 @media screen and (max-width: 700px) {

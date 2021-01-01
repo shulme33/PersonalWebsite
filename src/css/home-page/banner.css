@@ -10,7 +10,7 @@
 .ban-mp-img {
   /* Main banner image */
   height: 80vh;
-  background-image: url("/home-page/banner-image.jpeg");
+  background-image: url("../../images/home-page/banner-image.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
