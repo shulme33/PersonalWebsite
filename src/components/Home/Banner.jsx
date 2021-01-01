@@ -17,12 +17,16 @@ function Banner() {
           <h1 className="mp-txt-color-2 ban-main-title">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             SAM <br></br>HULME
 =======
             SAMUEL <br></br>HULME
 >>>>>>> 8b32a40405272f6e5019311d832035a6355727f2
 =======
             SAMUEL <br></br>HULME
+>>>>>>> develop
+=======
+            SAM <br></br>HULME
 >>>>>>> develop
           </h1>
         </div>
