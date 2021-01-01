@@ -1,0 +1,43 @@
+.wel-imp {
+  /* Imp for welcome section */
+  padding: 80px;
+}
+
+.wel {
+  /* Each main item in the welcome section */
+  display: inline-flex;
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.wel-section-hdr {
+  /* Welcome title */
+  width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+}
+
+.wel-section-txt-1 {
+  /* Welcome text */
+  margin: 0 0 20px 0;
+}
+
+.wel-section-txt-2 {
+  /* Second paragraph in welcome section */
+  margin: 0px;
+}
+
+.wel-msg {
+  /* Main message in welcom section */
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media screen and (max-width: 510px) {
+  /* Reduce padding for mobile */
+  .wel-imp {
+    padding: 60px 20px;
+  }
+}
