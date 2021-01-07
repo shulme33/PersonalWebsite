@@ -15,10 +15,7 @@ class SkillsSection extends Component {
 
   componentDidMount() {
     console.log("SkillsSection Component Mounted!");
-    fetch(
-      "http://personalwebsiteserver-env.eba-nma2juzg.us-east-2.elasticbeanstalk.com/api/skills",
-      { mode: "cors" }
-    )
+    fetch("/api/skills")
       .then((res) => res.json())
       .then((incomingSkills) =>
         this.setState({ skills: incomingSkills }, () =>
