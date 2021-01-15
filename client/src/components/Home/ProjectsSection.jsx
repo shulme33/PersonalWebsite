@@ -19,10 +19,13 @@ function ProjectsSection() {
           projectTitle={["Personal Website"]}
           projectPicture=" project-pic-personal-website"
           repoLocation="https://github.com/shulme33/PersonalWebsite"
-          repoLocation2="https://github.com/shulme33/PersonalWebsiteServer"
-          buttonTitle1="View Client"
-          buttonTitle2="View Server"
           projectDescription="The very website you are viewing right now! This is a place for me to experiment with a variety of technologies as well as one to showcase my skills and projects to others."
+        />
+        <Project
+          projectTitle={["Note Taker App"]}
+          projectPicture=" project-pic-notetaker"
+          repoLocation="https://github.com/shulme33/NoteTaker"
+          projectDescription="A note taking desktop app written in C# using WPF and SQL Server. This application allows users to create, edit, import, and delete notes in a familiar user interface."
         />
         <Project
           projectTitle={["Edamam API"]}
@@ -48,12 +51,6 @@ function ProjectsSection() {
           repoLocation="https://github.com/shulme33/MineSweeper"
           projectDescription="An implementation of the popular Mine Sweeper game with Java and JavaFX."
         />
-        <Project
-          projectTitle={["C Programming"]}
-          projectPicture=" project-pic-coding"
-          repoLocation="https://github.com/shulme33/C_Programming_Tutor"
-          projectDescription="A set of C programming labs that I wrote while tutoring for the class in college."
-        />
       </div>
     </div>
   );
@@ -64,23 +61,9 @@ export default ProjectsSection;
 /*
 
 <Project
-          projectTitle={["Edamam API"]}
-          projectPicture=" project-pic-personal-website"
-        />
-        <Project
-          projectTitle={["Virtual Breadboard"]}
-          projectPicture=" project-pic-personal-website"
-        />
-        <Project
-          projectTitle={["Huffman Coding"]}
-          projectPicture=" project-pic-personal-website"
-        />
-        <Project
-          projectTitle={["Mine Sweeper"]}
-          projectPicture=" project-pic-personal-website"
-        />
-        <Project
-          projectTitle={["Mine Sweeper blahh blahh"]}
-          projectPicture=" project-pic-personal-website"
+          projectTitle={["C Programming"]}
+          projectPicture=" project-pic-coding"
+          repoLocation="https://github.com/shulme33/C_Programming_Tutor"
+          projectDescription="A set of C programming labs that I wrote while tutoring for the class in college."
         />
         */

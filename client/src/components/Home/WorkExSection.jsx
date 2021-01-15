@@ -21,14 +21,14 @@ function WorkExSection() {
           jobIsLast={false}
           jobPicture=" job-fast-llc"
           jobCompany="Fast Enterprises, LLC"
-          jobTitle={"Implementation Consultant"}
+          jobTitle={"Software Developer"}
           jobTime="June 2018 - Present"
           jobLocation="New Mexico & Montana"
           jobDescription={[
-            "In New Mexico, I was the lead developer on the MVD's online customer portal. The highlight of my time there was the complete re-design of the vehicle registrations process which helped to streamline the task for over 35,000 MVD customers.",
+            "In New Mexico, my attention was focused on the upkeep of MVD's online customer portal. The highlight of my time there was the re-design of the online vehicle registrations process which helped to streamline the task for over 35,000 MVD customers.",
             <br key="br-1"></br>,
             <br key="br-2"></br>,
-            "Now in Montana, my attention has been focused on interfaces with the Montana Department of Revenue. I have overseen the conversion of our older FTP/Interface system to an updated/modern design.",
+            "Now in Montana, my attention has been focused on file processing with the Montana Department of Revenue. I have overseen the conversion of our older file processing system to an updated, modern design.",
           ]}
         />
         <Job

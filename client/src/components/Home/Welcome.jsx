@@ -18,7 +18,7 @@ function Welcome() {
           <h3 className="wel-section-hdr mp-txt-color-2">Welcome!</h3>
           <p className="wel-section-txt-1 mp-txt-color-2">
             Hello! Its good to see you. My name is Sam Hulme and I am a software
-            developer with over 2 years of professional working experience. My
+            developer with over 2.5 years of professional working experience. My
             passion lies in both front-end and back-end web development. I am a
             driven, outgoing, and passionate person who is easy to work with and
             can be relied on to get stuff done. This website contains all of my

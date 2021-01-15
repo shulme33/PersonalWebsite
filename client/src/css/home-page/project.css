@@ -116,9 +116,9 @@
   background-image: url(../../images/home-page/minesweeper.png);
 }
 
-.project-pic-coding {
+.project-pic-notetaker {
   /* C Programming Picture */
-  background-image: url(../../images/home-page/coding.jpg);
+  background-image: url(../../images/home-page/note-taking.jpg);
 }
 
 @media screen and (max-width: 700px) {
