@@ -27,6 +27,11 @@
   padding: 0 0 0 40px;
 }
 
+.job-moss-adams-llc {
+  /* FAST Logo 1 */
+  background-image: url(../../images/home-page/moss-adams.jpg);
+}
+
 .job-fast-llc {
   /* FAST Logo 1 */
   background-image: url(../../images/home-page/fast.png);

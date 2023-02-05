@@ -17,18 +17,33 @@ function WorkExSection() {
           subTitle="Work Experience and History"
         />
         <Job
+          key={"moss-adams"}
+          jobIsLast={false}
+          jobPicture=" job-moss-adams-llc"
+          jobCompany="Moss Adams"
+          jobTitle={"Consulting Senior"}
+          jobTime="February 2021 - Present"
+          jobLocation="Seattle, WA"
+          jobDescription={[
+            "I've been loving my time at Moss Adams and have been able to expand my skills in a number of directions. I am looking forward to the years to come.",
+            <br key="br-1"></br>,
+            <br key="br-2"></br>,
+            "I have recently been able to take on a number of interesting projects, including those based around batch processing, bash scripting, and web development.",
+          ]}
+        />
+        <Job
           key={"fast"}
           jobIsLast={false}
           jobPicture=" job-fast-llc"
           jobCompany="Fast Enterprises, LLC"
           jobTitle={"Software Developer"}
-          jobTime="June 2018 - Present"
+          jobTime="June 2018 - February 2021"
           jobLocation="New Mexico & Montana"
           jobDescription={[
             "In New Mexico, my attention was focused on the upkeep of MVD's online customer portal. The highlight of my time there was the re-design of the online vehicle registrations process which helped to streamline the task for over 35,000 MVD customers.",
             <br key="br-1"></br>,
             <br key="br-2"></br>,
-            "Now in Montana, my attention has been focused on file processing with the Montana Department of Revenue. I have overseen the conversion of our older file processing system to an updated, modern design.",
+            "Later in Montana, my attention was focused on file processing with the Montana Department of Revenue. I oversaw the conversion of our older file processing system to an updated, modern design.",
           ]}
         />
         <Job
