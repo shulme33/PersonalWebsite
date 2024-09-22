@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16 # Use the Node.js version compatible with your app
+    commands:
+      - echo "Installing dependencies"
+      - npm install # Install npm dependencies
+
+  build:
+    commands:
+      - echo "Building the React app"
+      - npm run build # Build the React frontend
+
+artifacts:
+  files:
+    - "**/*"
+  base-directory: build # The build directory containing the static files
