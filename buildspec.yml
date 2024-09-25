@@ -9,6 +9,7 @@ phases:
       - npm install # Install npm dependencies
       - cd client
       - npm install
+      - cd ..
 
   build:
     commands:
