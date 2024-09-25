@@ -26,5 +26,4 @@ artifacts:
   files:
     - "**/*"
     - appspec.yml
-    - client/appspec.yml
-  base-directory: client/build # The build directory containing the static files
+  base-directory: client # The build directory containing the static files
