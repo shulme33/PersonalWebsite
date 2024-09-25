@@ -26,4 +26,4 @@ phases:
 artifacts:
   files:
     - "**/*"
-  base-directory: build # The build directory containing the static files
+  base-directory: client/build # The build directory containing the static files
