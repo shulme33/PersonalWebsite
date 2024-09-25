@@ -6,7 +6,6 @@ phases:
       nodejs: 20 # Use the Node.js version compatible with your app
     commands:
       - echo "Installing dependencies"
-      - npm install # Install npm dependencies
       - cd client
       - npm install
       - cd ..
@@ -27,4 +26,5 @@ artifacts:
   files:
     - "**/*"
     - appspec.yml
-  base-directory: / # The build directory containing the static files
+    - client/appspec.yml
+  base-directory: /client/build # The build directory containing the static files
