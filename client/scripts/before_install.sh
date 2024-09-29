@@ -10,20 +10,5 @@ most_recent_install_file="/opt/codedeploy-agent/deployment-root/deployment-instr
 # Stop Nginx
 sudo service nginx stop
 
-# Get directory of most recent build
-mrd_dir=$(cat $most_recent_install_file | grep $project_build_dir)
-
-# Delete existing files in nginx directory
-sudo rm -rf $file_dir
-sudo rm -f /etc/nginx/conf.d/$nginx_conf_file
-
-# Make directory if doesn't exist: /var/www/personalwebsite
-sudo mkdir -p /var
-sudo mkdir -p /var/www
-sudo mkdir -p $file_dir
-
-# Copy files into nginx directory
-sudo cp -a $mrd_dir/deployment-archive/build/. $file_dir
-
 # Copy nginx redirect script into correct directory
-sudo cp $mrd_dir/deployment-archive/nginx/$nginx_conf_file /etc/nginx/conf.d/$nginx_conf_file
+sudo cp /var/www/personalwebsite/nginx/$nginx_conf_file /etc/nginx/conf.d/$nginx_conf_file
