@@ -15,7 +15,7 @@ function Banner() {
         <div className="ban-img-txt">
           <h3 className="mp-txt-color-2">― Hi, I'm ―</h3>
           <h1 className="mp-txt-color-2 ban-main-title">
-            FRODO <br></br>BAGGINS
+            BILBO <br></br>BAGGINS
           </h1>
         </div>
       </div>
