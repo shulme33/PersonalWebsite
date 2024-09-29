@@ -11,5 +11,7 @@ echo "Starting Nginx and PM2"
 #cd /var/www/PersonalWebsite
 #pm2 start app.js
 
+
 # Restart Nginx
 sudo service nginx start
+sudo systemctl reload nginx
